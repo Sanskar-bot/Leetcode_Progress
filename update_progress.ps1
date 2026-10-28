@@ -157,12 +157,73 @@ $recentTable
 Set-Content -Path "$REPO_DIR\README.md" -Value $readme -Encoding UTF8
 Write-Host "  ✅ README.md rebuilt" -ForegroundColor Green
 
-# ── 6. Git commit & push ──────────────────────────────────────
+# ── 6. Fetch & save public solution posts ────────────────────
+Write-Host "`n📝 Fetching your public solution posts..." -ForegroundColor Cyan
+
+$solDir = "$REPO_DIR\solutions"
+New-Item -ItemType Directory -Force -Path $solDir | Out-Null
+
+$solListBody = '{"query":"{ ugcArticleUserSolutionArticles(username: \"' + $USERNAME + '\", first: 50, skip: 0) { edges { node { uuid title slug summary createdAt questionSlug questionTitle } } totalNum } }"}'
+$solListResp = Invoke-RestMethod -Uri "https://leetcode.com/graphql" -Method POST -ContentType "application/json" -Body $solListBody
+$solPosts = $solListResp.data.ugcArticleUserSolutionArticles.edges
+
+$solutionsMeta = @()
+
+foreach ($edge in $solPosts) {
+    $node = $edge.node
+    $artBody = '{"query":"{ ugcArticleSolutionArticle(slug: \"' + $node.slug + '\") { title content createdAt questionSlug questionTitle } }"}'
+    $artResp = Invoke-RestMethod -Uri "https://leetcode.com/graphql" -Method POST -ContentType "application/json" -Body $artBody
+    $art = $artResp.data.ugcArticleSolutionArticle
+
+    $code = ""
+    if ($art.content -match '```python3?\s*\[\]\s*([\s\S]+?)```') {
+        $code = $matches[1].Trim()
+    }
+    $writeup = ($art.content -replace '```python3?\s*\[\]\s*[\s\S]+?```', '').Trim()
+    $date = ([datetime]$art.createdAt).ToString("yyyy-MM-dd")
+    $filename = $art.questionSlug + ".py"
+
+    $fileContent = @"
+# ============================================================
+#  Problem : $($art.questionTitle)
+#  URL     : https://leetcode.com/problems/$($art.questionSlug)/
+#  Solution: https://leetcode.com/solutions/$($node.slug)/
+#  Date    : $date
+#  Author  : Sanskar_phougat
+# ============================================================
+
+# ----- WRITE-UP -----
+$writeup
+
+# ----- CODE -----
+$code
+"@
+    Set-Content -Path "$solDir\$filename" -Value $fileContent -Encoding UTF8
+
+    $solutionsMeta += [ordered]@{
+        problem      = $art.questionTitle
+        slug         = $art.questionSlug
+        solution_url = "https://leetcode.com/solutions/$($node.slug)/"
+        date         = $date
+        filename     = $filename
+    }
+    Write-Host "  ✅ $filename" -ForegroundColor Green
+}
+
+# Save solutions metadata into progress_tracker.json
+$dataObj = $jsonOut | ConvertFrom-Json
+$dataObj | Add-Member -NotePropertyName "solutions_posted" -NotePropertyValue $solutionsMeta -Force
+$jsonOut = $dataObj | ConvertTo-Json -Depth 10
+Set-Content -Path "$REPO_DIR\progress_tracker.json" -Value $jsonOut -Encoding UTF8
+Write-Host "  ✅ Solutions metadata added to progress_tracker.json" -ForegroundColor Green
+
+# ── 7. Git commit & push ──────────────────────────────────────
 Set-Location $REPO_DIR
-git add progress_tracker.json README.md
-$commitMsg = "📊 Daily update: $totalSolved solved (E:$easySolved M:$mediumSolved H:$hardSolved) [$DATE]"
+git add progress_tracker.json README.md solutions/
+$commitMsg = "📊 Daily update: $totalSolved solved (E:$easySolved M:$mediumSolved H:$hardSolved) | $($solutionsMeta.Count) solutions posted [$DATE]"
 git commit -m $commitMsg
 git push origin main
 
 Write-Host "`n🚀 Pushed to GitHub successfully!" -ForegroundColor Green
 Write-Host "   → https://github.com/Sanskar-bot/Leetcode_Progress`n" -ForegroundColor Cyan
+
