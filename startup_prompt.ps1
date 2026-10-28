@@ -1,6 +1,6 @@
 # ============================================================
-#  LeetCode Tracker — Modern Windows 11 Style Popup
-#  Called by startup_prompt.vbs on login
+#  LeetCode Tracker - Modern Windows 11 Style Popup
+#  Clean formal design, no emojis
 # ============================================================
 
 Add-Type -AssemblyName PresentationFramework
@@ -8,28 +8,29 @@ Add-Type -AssemblyName PresentationCore
 Add-Type -AssemblyName WindowsBase
 Add-Type -AssemblyName System.Windows.Forms
 
-# ── Load current stats from JSON ─────────────────────────────
-$jsonPath = "C:\Users\Sanskar Phougat\Desktop\DSA\Leetcode\progress_tracker.json"
-$totalSolved = "?"; $easySolved = "?"; $mediumSolved = "?"; $hardSolved = "?"; $lastUpdated = "Never"
+# -- Load current stats from JSON -----------------------------
+$jsonPath    = "C:\Users\Sanskar Phougat\Desktop\DSA\Leetcode\progress_tracker.json"
+$totalSolved  = "--"; $easySolved = "--"; $mediumSolved = "--"; $hardSolved = "--"
+$lastUpdated  = "Never synced"
 
 if (Test-Path $jsonPath) {
     try {
-        $data        = Get-Content $jsonPath -Raw | ConvertFrom-Json
-        $totalSolved   = $data.stats.total_solved
-        $easySolved    = $data.stats.by_difficulty.Easy.solved
-        $mediumSolved  = $data.stats.by_difficulty.Medium.solved
-        $hardSolved    = $data.stats.by_difficulty.Hard.solved
-        $lastUpdated   = $data.meta.last_updated.ToString().Substring(0,10)
+        $data         = Get-Content $jsonPath -Raw | ConvertFrom-Json
+        $totalSolved  = $data.stats.total_solved
+        $easySolved   = $data.stats.by_difficulty.Easy.solved
+        $mediumSolved = $data.stats.by_difficulty.Medium.solved
+        $hardSolved   = $data.stats.by_difficulty.Hard.solved
+        $lastUpdated  = "Last synced  " + $data.meta.last_updated.ToString().Substring(0,10)
     } catch {}
 }
 
-# ── XAML Layout ──────────────────────────────────────────────
+# -- XAML -----------------------------------------------------
 [xml]$xaml = @"
 <Window
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     Title="LeetCode Tracker"
-    Width="420" Height="320"
+    Width="400" Height="290"
     WindowStartupLocation="CenterScreen"
     ResizeMode="NoResize"
     WindowStyle="None"
@@ -38,86 +39,80 @@ if (Test-Path $jsonPath) {
     Topmost="True">
 
   <Window.Resources>
+
+    <!-- Primary (Sync) button -->
     <Style x:Key="PrimaryBtn" TargetType="Button">
-      <Setter Property="Background" Value="#F89F1B"/>
-      <Setter Property="Foreground" Value="#0D0D0D"/>
-      <Setter Property="FontFamily" Value="Segoe UI Variable Display, Segoe UI"/>
-      <Setter Property="FontSize" Value="13"/>
-      <Setter Property="FontWeight" Value="SemiBold"/>
-      <Setter Property="Height" Value="38"/>
-      <Setter Property="Width" Value="150"/>
-      <Setter Property="Cursor" Value="Hand"/>
+      <Setter Property="Background"   Value="#F5A623"/>
+      <Setter Property="Foreground"   Value="#0D0D0D"/>
+      <Setter Property="FontFamily"   Value="Segoe UI Variable Display, Segoe UI"/>
+      <Setter Property="FontSize"     Value="13"/>
+      <Setter Property="FontWeight"   Value="SemiBold"/>
+      <Setter Property="Height"       Value="36"/>
+      <Setter Property="Width"        Value="148"/>
+      <Setter Property="Cursor"       Value="Hand"/>
       <Setter Property="BorderThickness" Value="0"/>
       <Setter Property="Template">
         <Setter.Value>
           <ControlTemplate TargetType="Button">
-            <Border Background="{TemplateBinding Background}" CornerRadius="8" Padding="12,0">
+            <Border Background="{TemplateBinding Background}" CornerRadius="8">
               <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Border>
             <ControlTemplate.Triggers>
               <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Background" Value="#FFBA42"/>
+                <Setter Property="Background" Value="#FFB84D"/>
               </Trigger>
-              <Trigger Property="IsPressed" Value="True">
-                <Setter Property="Background" Value="#D4860E"/>
+              <Trigger Property="IsPressed"   Value="True">
+                <Setter Property="Background" Value="#D4880A"/>
               </Trigger>
             </ControlTemplate.Triggers>
           </ControlTemplate>
         </Setter.Value>
       </Setter>
     </Style>
+
+    <!-- Secondary (Skip) button -->
     <Style x:Key="SecondaryBtn" TargetType="Button">
-      <Setter Property="Background" Value="#2A2A2A"/>
-      <Setter Property="Foreground" Value="#AAAAAA"/>
-      <Setter Property="FontFamily" Value="Segoe UI Variable Display, Segoe UI"/>
-      <Setter Property="FontSize" Value="13"/>
-      <Setter Property="FontWeight" Value="SemiBold"/>
-      <Setter Property="Height" Value="38"/>
-      <Setter Property="Width" Value="150"/>
-      <Setter Property="Cursor" Value="Hand"/>
+      <Setter Property="Background"   Value="#252525"/>
+      <Setter Property="Foreground"   Value="#888888"/>
+      <Setter Property="FontFamily"   Value="Segoe UI Variable Display, Segoe UI"/>
+      <Setter Property="FontSize"     Value="13"/>
+      <Setter Property="FontWeight"   Value="SemiBold"/>
+      <Setter Property="Height"       Value="36"/>
+      <Setter Property="Width"        Value="148"/>
+      <Setter Property="Cursor"       Value="Hand"/>
       <Setter Property="BorderThickness" Value="0"/>
       <Setter Property="Template">
         <Setter.Value>
           <ControlTemplate TargetType="Button">
-            <Border Background="{TemplateBinding Background}" CornerRadius="8" Padding="12,0">
+            <Border Background="{TemplateBinding Background}" CornerRadius="8">
               <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Border>
             <ControlTemplate.Triggers>
               <Trigger Property="IsMouseOver" Value="True">
-                <Setter Property="Background" Value="#333333"/>
+                <Setter Property="Background" Value="#2E2E2E"/>
+                <Setter Property="Foreground" Value="#AAAAAA"/>
               </Trigger>
-              <Trigger Property="IsPressed" Value="True">
-                <Setter Property="Background" Value="#1E1E1E"/>
+              <Trigger Property="IsPressed"   Value="True">
+                <Setter Property="Background" Value="#1C1C1C"/>
               </Trigger>
             </ControlTemplate.Triggers>
           </ControlTemplate>
         </Setter.Value>
       </Setter>
     </Style>
-  </Window.Resources>
 
-  <Border Background="#1A1A1A" CornerRadius="16" Margin="10">
-    <Border.Effect>
-      <DropShadowEffect BlurRadius="30" ShadowDepth="6" Opacity="0.6" Color="#000000"/>
-    </Border.Effect>
-
-    <Grid>
-      <Grid.RowDefinitions>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="Auto"/>
-        <RowDefinition Height="Auto"/>
-      </Grid.RowDefinitions>
-
-      <!-- Drag bar -->
-      <Border Grid.Row="0" Background="Transparent" Height="32" x:Name="DragBar"/>
-
-      <!-- Close button -->
-      <Button Grid.Row="0" Content="✕" HorizontalAlignment="Right" VerticalAlignment="Center"
-              Margin="0,0,14,0" Width="28" Height="28" FontSize="11"
-              Background="Transparent" Foreground="#666666" BorderThickness="0"
-              Cursor="Hand" x:Name="CloseBtn">
-        <Button.Template>
+    <!-- Close (X) button -->
+    <Style x:Key="CloseStyle" TargetType="Button">
+      <Setter Property="Background"      Value="Transparent"/>
+      <Setter Property="Foreground"      Value="#555555"/>
+      <Setter Property="FontFamily"      Value="Segoe UI"/>
+      <Setter Property="FontSize"        Value="11"/>
+      <Setter Property="Width"           Value="26"/>
+      <Setter Property="Height"          Value="26"/>
+      <Setter Property="Cursor"          Value="Hand"/>
+      <Setter Property="BorderThickness" Value="0"/>
+      <Setter Property="Template">
+        <Setter.Value>
           <ControlTemplate TargetType="Button">
             <Border Background="{TemplateBinding Background}" CornerRadius="6">
               <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -129,86 +124,115 @@ if (Test-Path $jsonPath) {
               </Trigger>
             </ControlTemplate.Triggers>
           </ControlTemplate>
-        </Button.Template>
-      </Button>
+        </Setter.Value>
+      </Setter>
+    </Style>
 
-      <!-- Main content -->
-      <StackPanel Grid.Row="1" Margin="28,0,28,0" VerticalAlignment="Center">
+  </Window.Resources>
 
-        <!-- Icon + Title -->
-        <StackPanel Orientation="Horizontal" Margin="0,0,0,6">
-          <TextBlock Text="&#x1F9E9;" FontSize="26" VerticalAlignment="Center" Margin="0,0,10,0"/>
+  <!-- Root card -->
+  <Border Background="#181818" CornerRadius="14" Margin="10">
+    <Border.Effect>
+      <DropShadowEffect BlurRadius="32" ShadowDepth="8" Opacity="0.55" Color="#000000"/>
+    </Border.Effect>
+
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="48"/>   <!-- title bar -->
+        <RowDefinition Height="*"/>    <!-- body -->
+        <RowDefinition Height="1"/>    <!-- divider -->
+        <RowDefinition Height="64"/>   <!-- buttons -->
+      </Grid.RowDefinitions>
+
+      <!-- ── Title bar ── -->
+      <Grid Grid.Row="0" x:Name="DragBar">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="18,0,0,0">
+          <!-- Accent bar replacing icon -->
+          <Border Width="3" Height="18" Background="#F5A623" CornerRadius="2" Margin="0,0,10,0"/>
           <StackPanel VerticalAlignment="Center">
-            <TextBlock Text="LeetCode Tracker" FontFamily="Segoe UI Variable Display, Segoe UI"
-                       FontSize="17" FontWeight="Bold" Foreground="#FFFFFF"/>
-            <TextBlock Text="Daily Progress Sync" FontFamily="Segoe UI, Segoe UI"
-                       FontSize="11" Foreground="#666666"/>
+            <TextBlock Text="LeetCode Tracker"
+                       FontFamily="Segoe UI Variable Display, Segoe UI"
+                       FontSize="13" FontWeight="SemiBold" Foreground="#EEEEEE"/>
+            <TextBlock Text="Daily Progress Sync"
+                       FontFamily="Segoe UI" FontSize="10" Foreground="#555555"/>
           </StackPanel>
         </StackPanel>
+        <!-- Close -->
+        <Button x:Name="CloseBtn" Style="{StaticResource CloseStyle}"
+                Content="x" HorizontalAlignment="Right" Margin="0,0,12,0"
+                FontWeight="SemiBold"/>
+      </Grid>
 
-        <!-- Divider -->
-        <Border Height="1" Background="#2A2A2A" Margin="0,10,0,14"/>
+      <!-- ── Stats body ── -->
+      <StackPanel Grid.Row="1" Margin="18,8,18,12" VerticalAlignment="Center">
 
-        <!-- Stats Row -->
-        <Grid Margin="0,0,0,14">
+        <!-- Stat cards row -->
+        <Grid>
           <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="8"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="8"/>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="8"/>
             <ColumnDefinition Width="*"/>
           </Grid.ColumnDefinitions>
 
           <!-- Total -->
-          <Border Grid.Column="0" Background="#242424" CornerRadius="10" Padding="8,10" Margin="0,0,5,0">
+          <Border Grid.Column="0" Background="#222222" CornerRadius="9" Padding="0,12">
             <StackPanel HorizontalAlignment="Center">
-              <TextBlock Text="TOTAL" FontSize="9" FontWeight="Bold" Foreground="#555555"
-                         HorizontalAlignment="Center" FontFamily="Segoe UI"/>
-              <TextBlock x:Name="TotalText" FontSize="22" FontWeight="Bold" Foreground="#FFFFFF"
-                         HorizontalAlignment="Center" FontFamily="Segoe UI Variable Display, Segoe UI"/>
+              <TextBlock Text="TOTAL" FontFamily="Segoe UI" FontSize="9" FontWeight="Bold"
+                         Foreground="#505050" HorizontalAlignment="Center" Margin="0,0,0,4"/>
+              <TextBlock x:Name="TotalText" FontFamily="Segoe UI Variable Display, Segoe UI"
+                         FontSize="24" FontWeight="Bold" Foreground="#FFFFFF" HorizontalAlignment="Center"/>
             </StackPanel>
           </Border>
+
           <!-- Easy -->
-          <Border Grid.Column="1" Background="#1A2E1A" CornerRadius="10" Padding="8,10" Margin="0,0,5,0">
+          <Border Grid.Column="2" Background="#192819" CornerRadius="9" Padding="0,12">
             <StackPanel HorizontalAlignment="Center">
-              <TextBlock Text="EASY" FontSize="9" FontWeight="Bold" Foreground="#3D7A3D"
-                         HorizontalAlignment="Center" FontFamily="Segoe UI"/>
-              <TextBlock x:Name="EasyText" FontSize="22" FontWeight="Bold" Foreground="#4EC94E"
-                         HorizontalAlignment="Center" FontFamily="Segoe UI Variable Display, Segoe UI"/>
+              <TextBlock Text="EASY" FontFamily="Segoe UI" FontSize="9" FontWeight="Bold"
+                         Foreground="#2E5C2E" HorizontalAlignment="Center" Margin="0,0,0,4"/>
+              <TextBlock x:Name="EasyText" FontFamily="Segoe UI Variable Display, Segoe UI"
+                         FontSize="24" FontWeight="Bold" Foreground="#4ADE80" HorizontalAlignment="Center"/>
             </StackPanel>
           </Border>
+
           <!-- Medium -->
-          <Border Grid.Column="2" Background="#2E2510" CornerRadius="10" Padding="8,10" Margin="0,0,5,0">
+          <Border Grid.Column="4" Background="#22200F" CornerRadius="9" Padding="0,12">
             <StackPanel HorizontalAlignment="Center">
-              <TextBlock Text="MED" FontSize="9" FontWeight="Bold" Foreground="#7A6020"
-                         HorizontalAlignment="Center" FontFamily="Segoe UI"/>
-              <TextBlock x:Name="MediumText" FontSize="22" FontWeight="Bold" Foreground="#F89F1B"
-                         HorizontalAlignment="Center" FontFamily="Segoe UI Variable Display, Segoe UI"/>
+              <TextBlock Text="MED" FontFamily="Segoe UI" FontSize="9" FontWeight="Bold"
+                         Foreground="#5C4A10" HorizontalAlignment="Center" Margin="0,0,0,4"/>
+              <TextBlock x:Name="MediumText" FontFamily="Segoe UI Variable Display, Segoe UI"
+                         FontSize="24" FontWeight="Bold" Foreground="#F5A623" HorizontalAlignment="Center"/>
             </StackPanel>
           </Border>
+
           <!-- Hard -->
-          <Border Grid.Column="3" Background="#2E1A1A" CornerRadius="10" Padding="8,10">
+          <Border Grid.Column="6" Background="#221818" CornerRadius="9" Padding="0,12">
             <StackPanel HorizontalAlignment="Center">
-              <TextBlock Text="HARD" FontSize="9" FontWeight="Bold" Foreground="#7A3D3D"
-                         HorizontalAlignment="Center" FontFamily="Segoe UI"/>
-              <TextBlock x:Name="HardText" FontSize="22" FontWeight="Bold" Foreground="#FF6B6B"
-                         HorizontalAlignment="Center" FontFamily="Segoe UI Variable Display, Segoe UI"/>
+              <TextBlock Text="HARD" FontFamily="Segoe UI" FontSize="9" FontWeight="Bold"
+                         Foreground="#5C2020" HorizontalAlignment="Center" Margin="0,0,0,4"/>
+              <TextBlock x:Name="HardText" FontFamily="Segoe UI Variable Display, Segoe UI"
+                         FontSize="24" FontWeight="Bold" Foreground="#F87171" HorizontalAlignment="Center"/>
             </StackPanel>
           </Border>
         </Grid>
 
-        <!-- Last updated -->
-        <TextBlock x:Name="LastUpdatedText" FontSize="11" Foreground="#444444"
-                   HorizontalAlignment="Center" FontFamily="Segoe UI" Margin="0,0,0,4"/>
+        <!-- Last synced label -->
+        <TextBlock x:Name="LastUpdatedText"
+                   FontFamily="Segoe UI" FontSize="10" Foreground="#3A3A3A"
+                   HorizontalAlignment="Center" Margin="0,10,0,0"/>
       </StackPanel>
 
       <!-- Divider -->
-      <Border Grid.Row="2" Height="1" Background="#242424" Margin="0,0,0,0"/>
+      <Border Grid.Row="2" Background="#242424"/>
 
-      <!-- Buttons -->
-      <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center"
-                  Margin="0,16,0,22">
-        <Button x:Name="YesBtn" Style="{StaticResource PrimaryBtn}" Content="⬆  Sync Now" Margin="0,0,12,0"/>
-        <Button x:Name="NoBtn"  Style="{StaticResource SecondaryBtn}" Content="Skip for now"/>
+      <!-- ── Buttons ── -->
+      <StackPanel Grid.Row="3" Orientation="Horizontal"
+                  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0">
+        <Button x:Name="YesBtn" Style="{StaticResource PrimaryBtn}" Content="Sync Now"  Margin="0,0,10,0"/>
+        <Button x:Name="NoBtn"  Style="{StaticResource SecondaryBtn}" Content="Skip"/>
       </StackPanel>
 
     </Grid>
@@ -216,73 +240,69 @@ if (Test-Path $jsonPath) {
 </Window>
 "@
 
-# ── Build Window ──────────────────────────────────────────────
+# -- Build window ---------------------------------------------
 $reader = New-Object System.Xml.XmlNodeReader $xaml
 $window = [Windows.Markup.XamlReader]::Load($reader)
 
-# Fill in live stats
-$window.FindName("TotalText").Text      = "$totalSolved"
-$window.FindName("EasyText").Text       = "$easySolved"
-$window.FindName("MediumText").Text     = "$mediumSolved"
-$window.FindName("HardText").Text       = "$hardSolved"
-$window.FindName("LastUpdatedText").Text = "Last synced: $lastUpdated"
+$window.FindName("TotalText").Text       = "$totalSolved"
+$window.FindName("EasyText").Text        = "$easySolved"
+$window.FindName("MediumText").Text      = "$mediumSolved"
+$window.FindName("HardText").Text        = "$hardSolved"
+$window.FindName("LastUpdatedText").Text = "$lastUpdated"
 
-# ── Wire up drag ──────────────────────────────────────────────
-$dragBar = $window.FindName("DragBar")
-$dragBar.Add_MouseLeftButtonDown({ $window.DragMove() })
+# Drag
+$window.FindName("DragBar").Add_MouseLeftButtonDown({ $window.DragMove() })
 
-# ── Wire up buttons ───────────────────────────────────────────
+# Button logic
 $result = $false
-
-$window.FindName("YesBtn").Add_Click({
-    $script:result = $true
-    $window.Close()
-})
-$window.FindName("NoBtn").Add_Click({
-    $script:result = $false
-    $window.Close()
-})
-$window.FindName("CloseBtn").Add_Click({
-    $script:result = $false
-    $window.Close()
-})
+$window.FindName("YesBtn").Add_Click({  $script:result = $true;  $window.Close() })
+$window.FindName("NoBtn").Add_Click({   $script:result = $false; $window.Close() })
+$window.FindName("CloseBtn").Add_Click({ $script:result = $false; $window.Close() })
 
 $window.ShowDialog() | Out-Null
 
-# ── Run updater if Yes ────────────────────────────────────────
+# -- Launch updater if confirmed ------------------------------
 if ($result) {
-    Start-Process powershell.exe -ArgumentList "-WindowStyle Hidden -ExecutionPolicy Bypass -File `"C:\Users\Sanskar Phougat\Desktop\DSA\Leetcode\update_progress.ps1`"" -WindowStyle Hidden
+    Start-Process powershell.exe `
+        -ArgumentList "-WindowStyle Hidden -ExecutionPolicy Bypass -File `"C:\Users\Sanskar Phougat\Desktop\DSA\Leetcode\update_progress.ps1`"" `
+        -WindowStyle Hidden
 
-    # Show a brief toast-style confirmation
+    # Minimal bottom-right toast (no emojis)
     [xml]$toastXaml = @"
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        Width="320" Height="70" WindowStartupLocation="Manual"
-        ResizeMode="NoResize" WindowStyle="None" AllowsTransparency="True"
-        Background="Transparent" Topmost="True">
-  <Border Background="#1A1A1A" CornerRadius="12" Margin="6">
+        Width="300" Height="60"
+        WindowStartupLocation="Manual"
+        ResizeMode="NoResize" WindowStyle="None"
+        AllowsTransparency="True" Background="Transparent" Topmost="True">
+  <Border Background="#1E1E1E" CornerRadius="10" Margin="6">
     <Border.Effect>
-      <DropShadowEffect BlurRadius="20" ShadowDepth="4" Opacity="0.5" Color="#000000"/>
+      <DropShadowEffect BlurRadius="18" ShadowDepth="4" Opacity="0.5" Color="#000000"/>
     </Border.Effect>
-    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="16,0">
-      <TextBlock Text="✅" FontSize="20" VerticalAlignment="Center" Margin="0,0,12,0"/>
-      <StackPanel VerticalAlignment="Center">
-        <TextBlock Text="Syncing to GitHub..." FontFamily="Segoe UI Variable Display, Segoe UI"
-                   FontSize="13" FontWeight="SemiBold" Foreground="#FFFFFF"/>
-        <TextBlock Text="LeetCode progress update running in background"
-                   FontFamily="Segoe UI" FontSize="10" Foreground="#666666"/>
+    <Grid Margin="14,0">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="4"/>
+        <ColumnDefinition Width="12"/>
+        <ColumnDefinition Width="*"/>
+      </Grid.ColumnDefinitions>
+      <!-- Accent stripe -->
+      <Border Grid.Column="0" Background="#F5A623" CornerRadius="2" Margin="0,12,0,12"/>
+      <!-- Text -->
+      <StackPanel Grid.Column="2" VerticalAlignment="Center">
+        <TextBlock Text="Syncing to GitHub"
+                   FontFamily="Segoe UI Variable Display, Segoe UI"
+                   FontSize="12" FontWeight="SemiBold" Foreground="#EEEEEE"/>
+        <TextBlock Text="Progress update running in background"
+                   FontFamily="Segoe UI" FontSize="10" Foreground="#555555"/>
       </StackPanel>
-    </StackPanel>
+    </Grid>
   </Border>
 </Window>
 "@
-    $toastReader = New-Object System.Xml.XmlNodeReader $toastXaml
-    $toast = [Windows.Markup.XamlReader]::Load($toastReader)
-
-    # Position bottom-right corner
-    $screen = [System.Windows.Forms.Screen]::PrimaryScreen.WorkingArea
-    $toast.Left = $screen.Right - 340
-    $toast.Top  = $screen.Bottom - 90
-
+    $tr = New-Object System.Xml.XmlNodeReader $toastXaml
+    $toast = [Windows.Markup.XamlReader]::Load($tr)
+    $screen    = [System.Windows.Forms.Screen]::PrimaryScreen.WorkingArea
+    $toast.Left = $screen.Right  - 318
+    $toast.Top  = $screen.Bottom - 80
     $toast.Show()
     Start-Sleep -Seconds 3
     $toast.Close()
