@@ -6,7 +6,7 @@
 #  Author  : Sanskar_phougat
 # ============================================================
 
-# ----- WRITE-UP -----
+# --- WRITE-UP ---
 # Intuition
 For any selling day, the best day to have bought is the cheapest day before it. So I don't need to compare every pair of days. I only need to remember the lowest price seen so far.
 
@@ -22,7 +22,7 @@ For any selling day, the best day to have bought is the cheapest day before it. 
 
 # Code
 
-# ----- CODE -----
+# --- CODE ---
 class Solution:
     def maxProfit(self, prices):
         minprice=float('inf')
@@ -31,3 +31,4 @@ class Solution:
             minprice=min(minprice, i )
             maxprofit=max(maxprofit, i - minprice)
         return maxprofit
+

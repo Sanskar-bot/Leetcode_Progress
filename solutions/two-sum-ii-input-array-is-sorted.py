@@ -6,7 +6,7 @@
 #  Author  : Sanskar_phougat
 # ============================================================
 
-# ----- WRITE-UP -----
+# --- WRITE-UP ---
 # Intuition
 The array is already sorted, so I can use the order to decide which pointer to move. If the sum of two numbers is too small, I need a bigger number. If it's too big, I need a smaller one.
 
@@ -27,7 +27,7 @@ Each step discards one element that cannot be part of the answer, so we never ch
 
 # Code
 
-# ----- CODE -----
+# --- CODE ---
 class Solution:
     def twoSum(self, numbers: list[int], target: int) -> list[int]:
         right , left = len(numbers)-1 , 0
@@ -40,3 +40,4 @@ class Solution:
                 left+=1
             else:
                 right-=1
+

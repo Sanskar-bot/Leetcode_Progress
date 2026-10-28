@@ -6,7 +6,7 @@
 #  Author  : Sanskar_phougat
 # ============================================================
 
-# ----- WRITE-UP -----
+# --- WRITE-UP ---
 # Intuition
 A bracket string is valid only if the most recently opened bracket is the first one to be closed. That last-in, first-out behavior is exactly what a stack does.
 
@@ -22,7 +22,7 @@ A bracket string is valid only if the most recently opened bracket is the first 
 - Space complexity: $$O(n)$$ in the worst case, for example `"((((("`, where every character is pushed onto the stack.
 # Code
 
-# ----- CODE -----
+# --- CODE ---
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
@@ -37,3 +37,4 @@ class Solution:
                 stack.append(i)
 
         return len(stack)==0
+

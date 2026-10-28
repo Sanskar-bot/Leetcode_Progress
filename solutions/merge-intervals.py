@@ -6,7 +6,7 @@
 #  Author  : Sanskar_phougat
 # ============================================================
 
-# ----- WRITE-UP -----
+# --- WRITE-UP ---
 # Intuition
 Two intervals can only overlap if they are next to each other once sorted by start time. So if I sort first, I only need to compare each interval with the one being built, not with every other interval.
 
@@ -22,7 +22,7 @@ Two intervals can only overlap if they are next to each other once sorted by sta
 
 # Code
 
-# ----- CODE -----
+# --- CODE ---
 class Solution:
     def merge(self, intervals: list[list[int]]) -> list[list[int]]:
         result = []
@@ -37,3 +37,4 @@ class Solution:
                 i += 1
             result.append([start, end])
         return result
+

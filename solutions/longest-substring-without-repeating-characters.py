@@ -6,7 +6,7 @@
 #  Author  : Sanskar_phougat
 # ============================================================
 
-# ----- WRITE-UP -----
+# --- WRITE-UP ---
 # Intuition
 A valid substring has no repeated characters. Instead of checking every substring, I can keep a "window" that always holds unique characters and slide it across the string.
 
@@ -23,7 +23,7 @@ A valid substring has no repeated characters. Instead of checking every substrin
 
 # Code
 
-# ----- CODE -----
+# --- CODE ---
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         seen = set()
@@ -36,3 +36,4 @@ class Solution:
             seen.add(s[right])
             maxlen = max(maxlen, right - left + 1)
         return maxlen
+

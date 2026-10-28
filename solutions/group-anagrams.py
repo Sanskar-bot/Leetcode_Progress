@@ -6,7 +6,7 @@
 #  Author  : Sanskar_phougat
 # ============================================================
 
-# ----- WRITE-UP -----
+# --- WRITE-UP ---
 # Intuition
 Anagrams contain exactly the same letters in the same quantities. So if I turn each word into a "fingerprint" of its letter counts, all anagrams get the same fingerprint and can be grouped under it.
 
@@ -23,7 +23,7 @@ Anagrams contain exactly the same letters in the same quantities. So if I turn e
 
 # Code
 
-# ----- CODE -----
+# --- CODE ---
 class Solution:
     def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
         grouped=defaultdict(list)
@@ -33,3 +33,4 @@ class Solution:
                 count[ord(s) - ord('a')]+=1
             grouped[tuple(count)].append(word)
         return list(grouped.values())
+

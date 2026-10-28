@@ -6,7 +6,7 @@
 #  Author  : Sanskar_phougat
 # ============================================================
 
-# ----- WRITE-UP -----
+# --- WRITE-UP ---
 # Intuition
 Checking `max()` on every window costs O(k) per window, which is too slow. Instead, I keep a deque of indices whose values are in decreasing order. The front of the deque is always the maximum of the current window, so I can read it in O(1).
 
@@ -26,7 +26,7 @@ Checking `max()` on every window costs O(k) per window, which is too slow. Inste
 
 # Code
 
-# ----- CODE -----
+# --- CODE ---
 from collections import deque
 
 class Solution:
@@ -55,3 +55,4 @@ class Solution:
                 #print ("If i > k-1 : ", dq , i , out ,"      number at ", i , "is" , nums[i])
 
         return out
+

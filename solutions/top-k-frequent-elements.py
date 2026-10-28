@@ -6,7 +6,7 @@
 #  Author  : Sanskar_phougat
 # ============================================================
 
-# ----- WRITE-UP -----
+# --- WRITE-UP ---
 # Intuition
 The answer depends on how often each number appears, so the first step is to count frequencies. Once I have the counts, the problem reduces to picking the k numbers with the highest counts.
 
@@ -23,10 +23,11 @@ This is the simple version. It can be improved to $$O(n \log k)$$ with a min-hea
 
 # Code
 
-# ----- CODE -----
+# --- CODE ---
 class Solution:
     def topKFrequent(self, nums: list[int], k: int) -> list[int]:
         freq=defaultdict(int)
         for number in nums:
             freq[number]+=1
         return sorted(freq, key=freq.get , reverse=True )[:k]
+
