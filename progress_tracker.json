@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "username": "Sanskar_phougat",
+    "profile_url": "https://leetcode.com/u/Sanskar_phougat/",
+    "last_updated": "2026-10-28T14:53:31+05:30"
+  },
+  "stats": {
+    "ranking": 2870509,
+    "total_solved": 50,
+    "total_submissions": 79,
+    "by_difficulty": {
+      "Easy":   { "solved": 27, "submissions": 42 },
+      "Medium": { "solved": 22, "submissions": 35 },
+      "Hard":   { "solved": 1,  "submissions": 2  }
+    }
+  },
+  "topics": {
+    "fundamental": [
+      { "tag": "Array",         "solved": 20 },
+      { "tag": "Two Pointers",  "solved": 9  },
+      { "tag": "Sorting",       "solved": 8  },
+      { "tag": "String",        "solved": 6  },
+      { "tag": "Linked List",   "solved": 4  },
+      { "tag": "Matrix",        "solved": 4  },
+      { "tag": "Stack",         "solved": 3  },
+      { "tag": "Queue",         "solved": 1  }
+    ],
+    "intermediate": [
+      { "tag": "Tree",              "solved": 6  },
+      { "tag": "Binary Tree",       "solved": 6  },
+      { "tag": "Hash Table",        "solved": 6  },
+      { "tag": "Database",          "solved": 15 }
+    ],
+    "advanced": [
+      { "tag": "Divide and Conquer",  "solved": 5 },
+      { "tag": "Quickselect",         "solved": 2 },
+      { "tag": "Dynamic Programming", "solved": 1 },
+      { "tag": "Union-Find",          "solved": 1 },
+      { "tag": "Monotonic Queue",     "solved": 1 },
+      { "tag": "Topological Sort",    "solved": 1 }
+    ]
+  },
+  "recent_accepted_submissions": [
+    { "title": "Two Sum II - Input Array Is Sorted",              "slug": "two-sum-ii-input-array-is-sorted",                "date": "2026-10-27" },
+    { "title": "Sliding Window Maximum",                          "slug": "sliding-window-maximum",                          "date": "2026-10-27" },
+    { "title": "Best Time to Buy and Sell Stock",                 "slug": "best-time-to-buy-and-sell-stock",                 "date": "2026-10-19" },
+    { "title": "Valid Parentheses",                               "slug": "valid-parentheses",                               "date": "2026-10-19" },
+    { "title": "Merge Intervals",                                 "slug": "merge-intervals",                                 "date": "2026-10-19" },
+    { "title": "Longest Substring Without Repeating Characters",  "slug": "longest-substring-without-repeating-characters",  "date": "2026-10-19" },
+    { "title": "Top K Frequent Elements",                        "slug": "top-k-frequent-elements",                        "date": "2026-10-19" },
+    { "title": "Group Anagrams",                                  "slug": "group-anagrams",                                  "date": "2026-10-19" },
+    { "title": "Two Sum",                                         "slug": "two-sum",                                         "date": "2026-10-19" },
+    { "title": "Immediate Food Delivery II",                      "slug": "immediate-food-delivery-ii",                      "date": "2026-10-16" },
+    { "title": "Delete Duplicate Emails",                         "slug": "delete-duplicate-emails",                         "date": "2026-10-14" },
+    { "title": "Second Highest Salary",                           "slug": "second-highest-salary",                           "date": "2026-10-13" },
+    { "title": "Nth Highest Salary",                              "slug": "nth-highest-salary",                              "date": "2026-10-13" },
+    { "title": "Department Highest Salary",                       "slug": "department-highest-salary",                       "date": "2026-10-13" },
+    { "title": "Queries Quality and Percentage",                  "slug": "queries-quality-and-percentage",                  "date": "2026-10-10" },
+    { "title": "Average Time of Process per Machine",             "slug": "average-time-of-process-per-machine",             "date": "2026-10-10" },
+    { "title": "Biggest Single Number",                           "slug": "biggest-single-number",                           "date": "2026-10-10" },
+    { "title": "Classes With at Least 5 Students",               "slug": "classes-with-at-least-5-students",               "date": "2026-10-10" },
+    { "title": "Duplicate Emails",                                "slug": "duplicate-emails",                                "date": "2026-10-10" },
+    { "title": "Valid Palindrome",                                "slug": "valid-palindrome",                                "date": "2026-10-09" }
+  ]
+}
+
