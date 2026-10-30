@@ -8,16 +8,16 @@
 
 | Metric | Value |
 |---|---|
-| Global Ranking | # |
-| Total Solved | **0** problems |
-| Total Submissions |  |
-| Acceptance Rate | ~0% |
+| Global Ranking | #2,718,379 |
+| Total Solved | **55** problems |
+| Total Submissions | 93 |
+| Acceptance Rate | ~59% |
 
 ### Difficulty Breakdown
 
 | Easy | Medium | Hard |
 |---|---|---|
-| 0 | 0 | 0 |
+| 29 | 25 | 1 |
 
 ---
 
@@ -26,17 +26,40 @@
 ### Fundamental
 | Topic | Solved |
 |---|---|
-|  |  |
+| Array | 22 |
+| Matrix | 4 |
+| String | 6 |
+| Sorting | 8 |
+| Stack | 3 |
+| Queue | 1 |
+| Linked List | 7 |
+| Two Pointers | 12 |
 
 ### Intermediate
 | Topic | Solved |
 |---|---|
-|  |  |
+| Tree | 6 |
+| Binary Tree | 6 |
+| Hash Table | 8 |
+| Graph Theory | 1 |
+| Binary Search | 4 |
+| Depth-First Search | 7 |
+| Breadth-First Search | 4 |
+| Recursion | 3 |
+| Sliding Window | 4 |
+| Bit Manipulation | 1 |
+| Math | 1 |
+| Database | 15 |
 
 ### Advanced
 | Topic | Solved |
 |---|---|
-|  |  |
+| Quickselect | 2 |
+| Dynamic Programming | 1 |
+| Divide and Conquer | 5 |
+| Union-Find | 1 |
+| Monotonic Queue | 1 |
+| Topological Sort | 1 |
 
 ---
 
@@ -44,7 +67,26 @@
 
 | # | Problem | Date |
 |---|---|---|
-| 1 | [](https://leetcode.com/problems//) | 1970-01-01 |
+| 1 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | 2026-10-30 |
+| 2 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | 2026-10-30 |
+| 3 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 2026-10-30 |
+| 4 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | 2026-10-30 |
+| 5 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 2026-10-30 |
+| 6 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 2026-10-29 |
+| 7 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | 2026-10-28 |
+| 8 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 2026-10-28 |
+| 9 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 2026-10-28 |
+| 10 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 2026-10-28 |
+| 11 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 2026-10-19 |
+| 12 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 2026-10-19 |
+| 13 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | 2026-10-19 |
+| 14 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 2026-10-19 |
+| 15 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 2026-10-19 |
+| 16 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 2026-10-19 |
+| 17 | [Two Sum](https://leetcode.com/problems/two-sum/) | 2026-10-19 |
+| 18 | [Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/) | 2026-10-16 |
+| 19 | [Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | 2026-10-15 |
+| 20 | [Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | 2026-10-14 |
 
 ---
 
@@ -59,4 +101,4 @@
 
 ---
 
-*Last updated: 2026-10-29 12:32:18*
+*Last updated: 2026-10-30 10:21:48*
