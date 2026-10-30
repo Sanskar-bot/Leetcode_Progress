@@ -2,20 +2,20 @@
     "meta":  {
                  "username":  "Sanskar_phougat",
                  "profile_url":  "https://leetcode.com/u/Sanskar_phougat/",
-                 "last_updated":  "2026-10-30 10:21:48"
+                 "last_updated":  "2026-10-30 10:44:49"
              },
     "stats":  {
                   "ranking":  2718379,
-                  "total_solved":  55,
-                  "total_submissions":  93,
+                  "total_solved":  56,
+                  "total_submissions":  96,
                   "by_difficulty":  {
                                         "Easy":  {
                                                      "solved":  29,
                                                      "submissions":  48
                                                  },
                                         "Medium":  {
-                                                       "solved":  25,
-                                                       "submissions":  42
+                                                       "solved":  26,
+                                                       "submissions":  45
                                                    },
                                         "Hard":  {
                                                      "solved":  1,
@@ -51,11 +51,11 @@
                                        },
                                        {
                                            "tag":  "Linked List",
-                                           "solved":  7
+                                           "solved":  8
                                        },
                                        {
                                            "tag":  "Two Pointers",
-                                           "solved":  12
+                                           "solved":  13
                                        }
                                    ],
                    "intermediate":  [
@@ -136,6 +136,11 @@
                                 ]
                },
     "recent_accepted_submissions":  [
+                                        {
+                                            "title":  "Remove Nth Node From End of List",
+                                            "slug":  "remove-nth-node-from-end-of-list",
+                                            "date":  "2026-10-30"
+                                        },
                                         {
                                             "title":  "Linked List Cycle II",
                                             "slug":  "linked-list-cycle-ii",
@@ -230,14 +235,16 @@
                                             "title":  "Delete Duplicate Emails",
                                             "slug":  "delete-duplicate-emails",
                                             "date":  "2026-10-15"
-                                        },
-                                        {
-                                            "title":  "Second Highest Salary",
-                                            "slug":  "second-highest-salary",
-                                            "date":  "2026-10-14"
                                         }
                                     ],
     "solutions_posted":  [
+                             {
+                                 "problem":  "Remove Nth Node From End of List",
+                                 "slug":  "remove-nth-node-from-end-of-list",
+                                 "solution_url":  "https://leetcode.com/solutions/two-pointers-one-pass-ol-time-o1-space-p-iyvo/",
+                                 "date":  "2026-10-30",
+                                 "filename":  "remove-nth-node-from-end-of-list.py"
+                             },
                              {
                                  "problem":  "Linked List Cycle II",
                                  "slug":  "linked-list-cycle-ii",
