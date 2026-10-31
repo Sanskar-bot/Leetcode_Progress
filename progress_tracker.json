@@ -2,140 +2,58 @@
     "meta":  {
                  "username":  "Sanskar_phougat",
                  "profile_url":  "https://leetcode.com/u/Sanskar_phougat/",
-                 "last_updated":  "2026-10-30 10:44:49"
+                 "last_updated":  "2026-11-01 00:07:46"
              },
     "stats":  {
-                  "ranking":  2718379,
-                  "total_solved":  56,
-                  "total_submissions":  96,
+                  "ranking":  null,
+                  "total_solved":  0,
+                  "total_submissions":  null,
                   "by_difficulty":  {
                                         "Easy":  {
-                                                     "solved":  29,
-                                                     "submissions":  48
+                                                     "solved":  0,
+                                                     "submissions":  null
                                                  },
                                         "Medium":  {
-                                                       "solved":  26,
-                                                       "submissions":  45
+                                                       "solved":  0,
+                                                       "submissions":  null
                                                    },
                                         "Hard":  {
-                                                     "solved":  1,
-                                                     "submissions":  3
+                                                     "solved":  0,
+                                                     "submissions":  null
                                                  }
                                     }
               },
     "topics":  {
                    "fundamental":  [
                                        {
-                                           "tag":  "Array",
-                                           "solved":  22
-                                       },
-                                       {
-                                           "tag":  "Matrix",
-                                           "solved":  4
-                                       },
-                                       {
-                                           "tag":  "String",
-                                           "solved":  6
-                                       },
-                                       {
-                                           "tag":  "Sorting",
-                                           "solved":  8
-                                       },
-                                       {
-                                           "tag":  "Stack",
-                                           "solved":  3
-                                       },
-                                       {
-                                           "tag":  "Queue",
-                                           "solved":  1
-                                       },
-                                       {
-                                           "tag":  "Linked List",
-                                           "solved":  8
-                                       },
-                                       {
-                                           "tag":  "Two Pointers",
-                                           "solved":  13
+                                           "tag":  null,
+                                           "solved":  null
                                        }
                                    ],
                    "intermediate":  [
                                         {
-                                            "tag":  "Tree",
-                                            "solved":  6
-                                        },
-                                        {
-                                            "tag":  "Binary Tree",
-                                            "solved":  6
-                                        },
-                                        {
-                                            "tag":  "Hash Table",
-                                            "solved":  8
-                                        },
-                                        {
-                                            "tag":  "Graph Theory",
-                                            "solved":  1
-                                        },
-                                        {
-                                            "tag":  "Binary Search",
-                                            "solved":  4
-                                        },
-                                        {
-                                            "tag":  "Depth-First Search",
-                                            "solved":  7
-                                        },
-                                        {
-                                            "tag":  "Breadth-First Search",
-                                            "solved":  4
-                                        },
-                                        {
-                                            "tag":  "Recursion",
-                                            "solved":  3
-                                        },
-                                        {
-                                            "tag":  "Sliding Window",
-                                            "solved":  4
-                                        },
-                                        {
-                                            "tag":  "Bit Manipulation",
-                                            "solved":  1
-                                        },
-                                        {
-                                            "tag":  "Math",
-                                            "solved":  1
-                                        },
-                                        {
-                                            "tag":  "Database",
-                                            "solved":  15
+                                            "tag":  null,
+                                            "solved":  null
                                         }
                                     ],
                    "advanced":  [
                                     {
-                                        "tag":  "Quickselect",
-                                        "solved":  2
-                                    },
-                                    {
-                                        "tag":  "Dynamic Programming",
-                                        "solved":  1
-                                    },
-                                    {
-                                        "tag":  "Divide and Conquer",
-                                        "solved":  5
-                                    },
-                                    {
-                                        "tag":  "Union-Find",
-                                        "solved":  1
-                                    },
-                                    {
-                                        "tag":  "Monotonic Queue",
-                                        "solved":  1
-                                    },
-                                    {
-                                        "tag":  "Topological Sort",
-                                        "solved":  1
+                                        "tag":  null,
+                                        "solved":  null
                                     }
                                 ]
                },
     "recent_accepted_submissions":  [
+                                        {
+                                            "title":  "Combination Sum",
+                                            "slug":  "combination-sum",
+                                            "date":  "2026-10-31"
+                                        },
+                                        {
+                                            "title":  "Intersection of Two Linked Lists",
+                                            "slug":  "intersection-of-two-linked-lists",
+                                            "date":  "2026-10-30"
+                                        },
                                         {
                                             "title":  "Remove Nth Node From End of List",
                                             "slug":  "remove-nth-node-from-end-of-list",
@@ -225,19 +143,23 @@
                                             "title":  "Two Sum",
                                             "slug":  "two-sum",
                                             "date":  "2026-10-19"
-                                        },
-                                        {
-                                            "title":  "Immediate Food Delivery II",
-                                            "slug":  "immediate-food-delivery-ii",
-                                            "date":  "2026-10-16"
-                                        },
-                                        {
-                                            "title":  "Delete Duplicate Emails",
-                                            "slug":  "delete-duplicate-emails",
-                                            "date":  "2026-10-15"
                                         }
                                     ],
     "solutions_posted":  [
+                             {
+                                 "problem":  "Combination Sum",
+                                 "slug":  "combination-sum",
+                                 "solution_url":  "https://leetcode.com/solutions/backtracking-reuse-allowed-via-start-ind-gyav/",
+                                 "date":  "2026-10-31",
+                                 "filename":  "combination-sum.py"
+                             },
+                             {
+                                 "problem":  "Combination Sum",
+                                 "slug":  "combination-sum",
+                                 "solution_url":  "https://leetcode.com/solutions/two-pointers-switch-heads-onm-time-o1-sp-0m97/",
+                                 "date":  "2026-10-31",
+                                 "filename":  "combination-sum.py"
+                             },
                              {
                                  "problem":  "Remove Nth Node From End of List",
                                  "slug":  "remove-nth-node-from-end-of-list",
