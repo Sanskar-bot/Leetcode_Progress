@@ -1,7 +1,7 @@
 ﻿# ============================================================
 #  Problem : Combination Sum
 #  URL     : https://leetcode.com/problems/combination-sum/
-#  Solution: https://leetcode.com/solutions/two-pointers-switch-heads-onm-time-o1-sp-0m97/
+#  Solution: https://leetcode.com/solutions/backtracking-reuse-allowed-via-start-ind-gyav/
 #  Date    : 2026-10-31
 #  Author  : Sanskar_phougat
 # ============================================================

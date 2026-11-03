@@ -2,48 +2,234 @@
     "meta":  {
                  "username":  "Sanskar_phougat",
                  "profile_url":  "https://leetcode.com/u/Sanskar_phougat/",
-                 "last_updated":  "2026-11-01 00:07:46"
+                 "last_updated":  "2026-11-03 15:28:39"
              },
     "stats":  {
-                  "ranking":  null,
-                  "total_solved":  0,
-                  "total_submissions":  null,
+                  "ranking":  2302350,
+                  "total_solved":  74,
+                  "total_submissions":  122,
                   "by_difficulty":  {
                                         "Easy":  {
-                                                     "solved":  0,
-                                                     "submissions":  null
+                                                     "solved":  39,
+                                                     "submissions":  65
                                                  },
                                         "Medium":  {
-                                                       "solved":  0,
-                                                       "submissions":  null
+                                                       "solved":  34,
+                                                       "submissions":  54
                                                    },
                                         "Hard":  {
-                                                     "solved":  0,
-                                                     "submissions":  null
+                                                     "solved":  1,
+                                                     "submissions":  3
                                                  }
                                     }
               },
     "topics":  {
                    "fundamental":  [
                                        {
-                                           "tag":  null,
-                                           "solved":  null
+                                           "tag":  "Array",
+                                           "solved":  24
+                                       },
+                                       {
+                                           "tag":  "Matrix",
+                                           "solved":  5
+                                       },
+                                       {
+                                           "tag":  "String",
+                                           "solved":  9
+                                       },
+                                       {
+                                           "tag":  "Sorting",
+                                           "solved":  8
+                                       },
+                                       {
+                                           "tag":  "Stack",
+                                           "solved":  5
+                                       },
+                                       {
+                                           "tag":  "Queue",
+                                           "solved":  1
+                                       },
+                                       {
+                                           "tag":  "Linked List",
+                                           "solved":  9
+                                       },
+                                       {
+                                           "tag":  "Two Pointers",
+                                           "solved":  14
                                        }
                                    ],
                    "intermediate":  [
                                         {
-                                            "tag":  null,
-                                            "solved":  null
+                                            "tag":  "Tree",
+                                            "solved":  19
+                                        },
+                                        {
+                                            "tag":  "Binary Tree",
+                                            "solved":  19
+                                        },
+                                        {
+                                            "tag":  "Hash Table",
+                                            "solved":  10
+                                        },
+                                        {
+                                            "tag":  "Graph Theory",
+                                            "solved":  1
+                                        },
+                                        {
+                                            "tag":  "Binary Search",
+                                            "solved":  4
+                                        },
+                                        {
+                                            "tag":  "Depth-First Search",
+                                            "solved":  19
+                                        },
+                                        {
+                                            "tag":  "Breadth-First Search",
+                                            "solved":  12
+                                        },
+                                        {
+                                            "tag":  "Recursion",
+                                            "solved":  3
+                                        },
+                                        {
+                                            "tag":  "Sliding Window",
+                                            "solved":  4
+                                        },
+                                        {
+                                            "tag":  "Bit Manipulation",
+                                            "solved":  1
+                                        },
+                                        {
+                                            "tag":  "Math",
+                                            "solved":  1
+                                        },
+                                        {
+                                            "tag":  "Database",
+                                            "solved":  15
                                         }
                                     ],
                    "advanced":  [
                                     {
-                                        "tag":  null,
-                                        "solved":  null
+                                        "tag":  "Backtracking",
+                                        "solved":  4
+                                    },
+                                    {
+                                        "tag":  "Quickselect",
+                                        "solved":  2
+                                    },
+                                    {
+                                        "tag":  "Dynamic Programming",
+                                        "solved":  2
+                                    },
+                                    {
+                                        "tag":  "Divide and Conquer",
+                                        "solved":  5
+                                    },
+                                    {
+                                        "tag":  "Union-Find",
+                                        "solved":  1
+                                    },
+                                    {
+                                        "tag":  "Monotonic Queue",
+                                        "solved":  1
+                                    },
+                                    {
+                                        "tag":  "Topological Sort",
+                                        "solved":  1
                                     }
                                 ]
                },
     "recent_accepted_submissions":  [
+                                        {
+                                            "title":  "Binary Tree Zigzag Level Order Traversal",
+                                            "slug":  "binary-tree-zigzag-level-order-traversal",
+                                            "date":  "2026-11-03"
+                                        },
+                                        {
+                                            "title":  "Path Sum",
+                                            "slug":  "path-sum",
+                                            "date":  "2026-11-03"
+                                        },
+                                        {
+                                            "title":  "Balanced Binary Tree",
+                                            "slug":  "balanced-binary-tree",
+                                            "date":  "2026-11-03"
+                                        },
+                                        {
+                                            "title":  "Invert Binary Tree",
+                                            "slug":  "invert-binary-tree",
+                                            "date":  "2026-11-02"
+                                        },
+                                        {
+                                            "title":  "Symmetric Tree",
+                                            "slug":  "symmetric-tree",
+                                            "date":  "2026-11-02"
+                                        },
+                                        {
+                                            "title":  "Same Tree",
+                                            "slug":  "same-tree",
+                                            "date":  "2026-11-02"
+                                        },
+                                        {
+                                            "title":  "Binary Tree Right Side View",
+                                            "slug":  "binary-tree-right-side-view",
+                                            "date":  "2026-11-02"
+                                        },
+                                        {
+                                            "title":  "Lowest Common Ancestor of a Binary Tree",
+                                            "slug":  "lowest-common-ancestor-of-a-binary-tree",
+                                            "date":  "2026-11-02"
+                                        },
+                                        {
+                                            "title":  "Maximum Depth of Binary Tree",
+                                            "slug":  "maximum-depth-of-binary-tree",
+                                            "date":  "2026-11-02"
+                                        },
+                                        {
+                                            "title":  "Diameter of Binary Tree",
+                                            "slug":  "diameter-of-binary-tree",
+                                            "date":  "2026-11-02"
+                                        },
+                                        {
+                                            "title":  "Maximum Depth of Binary Tree",
+                                            "slug":  "maximum-depth-of-binary-tree",
+                                            "date":  "2026-11-02"
+                                        },
+                                        {
+                                            "title":  "Binary Tree Level Order Traversal",
+                                            "slug":  "binary-tree-level-order-traversal",
+                                            "date":  "2026-11-01"
+                                        },
+                                        {
+                                            "title":  "Binary Tree Postorder Traversal",
+                                            "slug":  "binary-tree-postorder-traversal",
+                                            "date":  "2026-11-01"
+                                        },
+                                        {
+                                            "title":  "Binary Tree Preorder Traversal",
+                                            "slug":  "binary-tree-preorder-traversal",
+                                            "date":  "2026-11-01"
+                                        },
+                                        {
+                                            "title":  "Binary Tree Inorder Traversal",
+                                            "slug":  "binary-tree-inorder-traversal",
+                                            "date":  "2026-11-01"
+                                        },
+                                        {
+                                            "title":  "Word Search",
+                                            "slug":  "word-search",
+                                            "date":  "2026-11-01"
+                                        },
+                                        {
+                                            "title":  "Palindrome Partitioning",
+                                            "slug":  "palindrome-partitioning",
+                                            "date":  "2026-11-01"
+                                        },
+                                        {
+                                            "title":  "Letter Combinations of a Phone Number",
+                                            "slug":  "letter-combinations-of-a-phone-number",
+                                            "date":  "2026-11-01"
+                                        },
                                         {
                                             "title":  "Combination Sum",
                                             "slug":  "combination-sum",
@@ -53,99 +239,121 @@
                                             "title":  "Intersection of Two Linked Lists",
                                             "slug":  "intersection-of-two-linked-lists",
                                             "date":  "2026-10-30"
-                                        },
-                                        {
-                                            "title":  "Remove Nth Node From End of List",
-                                            "slug":  "remove-nth-node-from-end-of-list",
-                                            "date":  "2026-10-30"
-                                        },
-                                        {
-                                            "title":  "Linked List Cycle II",
-                                            "slug":  "linked-list-cycle-ii",
-                                            "date":  "2026-10-30"
-                                        },
-                                        {
-                                            "title":  "Linked List Cycle",
-                                            "slug":  "linked-list-cycle",
-                                            "date":  "2026-10-30"
-                                        },
-                                        {
-                                            "title":  "Merge Two Sorted Lists",
-                                            "slug":  "merge-two-sorted-lists",
-                                            "date":  "2026-10-30"
-                                        },
-                                        {
-                                            "title":  "Middle of the Linked List",
-                                            "slug":  "middle-of-the-linked-list",
-                                            "date":  "2026-10-30"
-                                        },
-                                        {
-                                            "title":  "Reverse Linked List",
-                                            "slug":  "reverse-linked-list",
-                                            "date":  "2026-10-30"
-                                        },
-                                        {
-                                            "title":  "Max Consecutive Ones III",
-                                            "slug":  "max-consecutive-ones-iii",
-                                            "date":  "2026-10-29"
-                                        },
-                                        {
-                                            "title":  "Minimum Size Subarray Sum",
-                                            "slug":  "minimum-size-subarray-sum",
-                                            "date":  "2026-10-28"
-                                        },
-                                        {
-                                            "title":  "Sliding Window Maximum",
-                                            "slug":  "sliding-window-maximum",
-                                            "date":  "2026-10-28"
-                                        },
-                                        {
-                                            "title":  "Two Sum II - Input Array Is Sorted",
-                                            "slug":  "two-sum-ii-input-array-is-sorted",
-                                            "date":  "2026-10-28"
-                                        },
-                                        {
-                                            "title":  "Sliding Window Maximum",
-                                            "slug":  "sliding-window-maximum",
-                                            "date":  "2026-10-28"
-                                        },
-                                        {
-                                            "title":  "Best Time to Buy and Sell Stock",
-                                            "slug":  "best-time-to-buy-and-sell-stock",
-                                            "date":  "2026-10-19"
-                                        },
-                                        {
-                                            "title":  "Valid Parentheses",
-                                            "slug":  "valid-parentheses",
-                                            "date":  "2026-10-19"
-                                        },
-                                        {
-                                            "title":  "Merge Intervals",
-                                            "slug":  "merge-intervals",
-                                            "date":  "2026-10-19"
-                                        },
-                                        {
-                                            "title":  "Longest Substring Without Repeating Characters",
-                                            "slug":  "longest-substring-without-repeating-characters",
-                                            "date":  "2026-10-19"
-                                        },
-                                        {
-                                            "title":  "Top K Frequent Elements",
-                                            "slug":  "top-k-frequent-elements",
-                                            "date":  "2026-10-19"
-                                        },
-                                        {
-                                            "title":  "Group Anagrams",
-                                            "slug":  "group-anagrams",
-                                            "date":  "2026-10-19"
-                                        },
-                                        {
-                                            "title":  "Two Sum",
-                                            "slug":  "two-sum",
-                                            "date":  "2026-10-19"
                                         }
                                     ],
     "solutions_posted":  [
+                             {
+                                 "problem":  "Binary Tree Zigzag Level Order Traversal",
+                                 "slug":  "binary-tree-zigzag-level-order-traversal",
+                                 "solution_url":  "https://leetcode.com/solutions/simple-dfs-reverse-odd-levels-python3-on-6js2/",
+                                 "date":  "2026-11-03",
+                                 "filename":  "binary-tree-zigzag-level-order-traversal.py"
+                             },
+                             {
+                                 "problem":  "Path Sum",
+                                 "slug":  "path-sum",
+                                 "solution_url":  "https://leetcode.com/solutions/path-sum-recursive-dfs-with-root-to-leaf-f473/",
+                                 "date":  "2026-11-03",
+                                 "filename":  "path-sum.py"
+                             },
+                             {
+                                 "problem":  "Balanced Binary Tree",
+                                 "slug":  "balanced-binary-tree",
+                                 "solution_url":  "https://leetcode.com/solutions/balanced-binary-tree-bottom-up-dfs-with-c0rz0/",
+                                 "date":  "2026-11-03",
+                                 "filename":  "balanced-binary-tree.py"
+                             },
+                             {
+                                 "problem":  "Invert Binary Tree",
+                                 "slug":  "invert-binary-tree",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-dfs-swap-children-at-every-nod-0zhj/",
+                                 "date":  "2026-11-02",
+                                 "filename":  "invert-binary-tree.py"
+                             },
+                             {
+                                 "problem":  "Symmetric Tree",
+                                 "slug":  "symmetric-tree",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-dfs-compare-mirror-pairs-on-ti-irub/",
+                                 "date":  "2026-11-02",
+                                 "filename":  "symmetric-tree.py"
+                             },
+                             {
+                                 "problem":  "Lowest Common Ancestor of a Binary Tree",
+                                 "slug":  "lowest-common-ancestor-of-a-binary-tree",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-dfs-compare-node-by-node-on-ti-cffg/",
+                                 "date":  "2026-11-02",
+                                 "filename":  "lowest-common-ancestor-of-a-binary-tree.py"
+                             },
+                             {
+                                 "problem":  "Lowest Common Ancestor of a Binary Tree",
+                                 "slug":  "lowest-common-ancestor-of-a-binary-tree",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-dfs-return-p-q-or-lca-on-time-jhpl2/",
+                                 "date":  "2026-11-02",
+                                 "filename":  "lowest-common-ancestor-of-a-binary-tree.py"
+                             },
+                             {
+                                 "problem":  "Maximum Depth of Binary Tree",
+                                 "slug":  "maximum-depth-of-binary-tree",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-dfs-return-depth-on-time-oh-sp-j3tk/",
+                                 "date":  "2026-11-02",
+                                 "filename":  "maximum-depth-of-binary-tree.py"
+                             },
+                             {
+                                 "problem":  "Diameter of Binary Tree",
+                                 "slug":  "diameter-of-binary-tree",
+                                 "solution_url":  "https://leetcode.com/solutions/dfs-returning-depth-update-diameter-at-e-6x0p/",
+                                 "date":  "2026-11-02",
+                                 "filename":  "diameter-of-binary-tree.py"
+                             },
+                             {
+                                 "problem":  "Binary Tree Level Order Traversal",
+                                 "slug":  "binary-tree-level-order-traversal",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-dfs-with-depth-on-time-python-3l841/",
+                                 "date":  "2026-11-01",
+                                 "filename":  "binary-tree-level-order-traversal.py"
+                             },
+                             {
+                                 "problem":  "Binary Tree Postorder Traversal",
+                                 "slug":  "binary-tree-postorder-traversal",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-postorder-traversal-left-right-3vvh/",
+                                 "date":  "2026-11-01",
+                                 "filename":  "binary-tree-postorder-traversal.py"
+                             },
+                             {
+                                 "problem":  "Binary Tree Preorder Traversal",
+                                 "slug":  "binary-tree-preorder-traversal",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-preorder-traversal-node-left-r-fj1w/",
+                                 "date":  "2026-11-01",
+                                 "filename":  "binary-tree-preorder-traversal.py"
+                             },
+                             {
+                                 "problem":  "Binary Tree Inorder Traversal",
+                                 "slug":  "binary-tree-inorder-traversal",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-inorder-traversal-left-node-ri-5jsa/",
+                                 "date":  "2026-11-01",
+                                 "filename":  "binary-tree-inorder-traversal.py"
+                             },
+                             {
+                                 "problem":  "Word Search",
+                                 "slug":  "word-search",
+                                 "solution_url":  "https://leetcode.com/solutions/backtracking-on-a-grid-mark-visited-rest-h6t6/",
+                                 "date":  "2026-11-01",
+                                 "filename":  "word-search.py"
+                             },
+                             {
+                                 "problem":  "Palindrome Partitioning",
+                                 "slug":  "palindrome-partitioning",
+                                 "solution_url":  "https://leetcode.com/solutions/backtracking-cut-where-the-piece-is-a-pa-1trk/",
+                                 "date":  "2026-11-01",
+                                 "filename":  "palindrome-partitioning.py"
+                             },
+                             {
+                                 "problem":  "Letter Combinations of a Phone Number",
+                                 "slug":  "letter-combinations-of-a-phone-number",
+                                 "solution_url":  "https://leetcode.com/solutions/backtracking-one-letter-per-digit-python-24k3/",
+                                 "date":  "2026-11-01",
+                                 "filename":  "letter-combinations-of-a-phone-number.py"
+                             },
                              {
                                  "problem":  "Combination Sum",
                                  "slug":  "combination-sum",
@@ -154,11 +362,11 @@
                                  "filename":  "combination-sum.py"
                              },
                              {
-                                 "problem":  "Combination Sum",
-                                 "slug":  "combination-sum",
+                                 "problem":  "Intersection of Two Linked Lists",
+                                 "slug":  "intersection-of-two-linked-lists",
                                  "solution_url":  "https://leetcode.com/solutions/two-pointers-switch-heads-onm-time-o1-sp-0m97/",
-                                 "date":  "2026-10-31",
-                                 "filename":  "combination-sum.py"
+                                 "date":  "2026-10-30",
+                                 "filename":  "intersection-of-two-linked-lists.py"
                              },
                              {
                                  "problem":  "Remove Nth Node From End of List",

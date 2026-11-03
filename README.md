@@ -8,16 +8,16 @@
 
 | Metric | Value |
 |---|---|
-| Global Ranking | # |
-| Total Solved | **0** problems |
-| Total Submissions |  |
-| Acceptance Rate | ~0% |
+| Global Ranking | #2,302,350 |
+| Total Solved | **74** problems |
+| Total Submissions | 122 |
+| Acceptance Rate | ~61% |
 
 ### Difficulty Breakdown
 
 | Easy | Medium | Hard |
 |---|---|---|
-| 0 | 0 | 0 |
+| 39 | 34 | 1 |
 
 ---
 
@@ -26,17 +26,41 @@
 ### Fundamental
 | Topic | Solved |
 |---|---|
-|  |  |
+| Array | 24 |
+| Matrix | 5 |
+| String | 9 |
+| Sorting | 8 |
+| Stack | 5 |
+| Queue | 1 |
+| Linked List | 9 |
+| Two Pointers | 14 |
 
 ### Intermediate
 | Topic | Solved |
 |---|---|
-|  |  |
+| Tree | 19 |
+| Binary Tree | 19 |
+| Hash Table | 10 |
+| Graph Theory | 1 |
+| Binary Search | 4 |
+| Depth-First Search | 19 |
+| Breadth-First Search | 12 |
+| Recursion | 3 |
+| Sliding Window | 4 |
+| Bit Manipulation | 1 |
+| Math | 1 |
+| Database | 15 |
 
 ### Advanced
 | Topic | Solved |
 |---|---|
-|  |  |
+| Backtracking | 4 |
+| Quickselect | 2 |
+| Dynamic Programming | 2 |
+| Divide and Conquer | 5 |
+| Union-Find | 1 |
+| Monotonic Queue | 1 |
+| Topological Sort | 1 |
 
 ---
 
@@ -44,26 +68,26 @@
 
 | # | Problem | Date |
 |---|---|---|
-| 1 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 2026-10-31 |
-| 2 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | 2026-10-30 |
-| 3 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 2026-10-30 |
-| 4 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | 2026-10-30 |
-| 5 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | 2026-10-30 |
-| 6 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 2026-10-30 |
-| 7 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | 2026-10-30 |
-| 8 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 2026-10-30 |
-| 9 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | 2026-10-29 |
-| 10 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | 2026-10-28 |
-| 11 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 2026-10-28 |
-| 12 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 2026-10-28 |
-| 13 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 2026-10-28 |
-| 14 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 2026-10-19 |
-| 15 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 2026-10-19 |
-| 16 | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | 2026-10-19 |
-| 17 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | 2026-10-19 |
-| 18 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 2026-10-19 |
-| 19 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 2026-10-19 |
-| 20 | [Two Sum](https://leetcode.com/problems/two-sum/) | 2026-10-19 |
+| 1 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | 2026-11-03 |
+| 2 | [Path Sum](https://leetcode.com/problems/path-sum/) | 2026-11-03 |
+| 3 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 2026-11-03 |
+| 4 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 2026-11-02 |
+| 5 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | 2026-11-02 |
+| 6 | [Same Tree](https://leetcode.com/problems/same-tree/) | 2026-11-02 |
+| 7 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 2026-11-02 |
+| 8 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 2026-11-02 |
+| 9 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 2026-11-02 |
+| 10 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 2026-11-02 |
+| 11 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 2026-11-02 |
+| 12 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | 2026-11-01 |
+| 13 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | 2026-11-01 |
+| 14 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | 2026-11-01 |
+| 15 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | 2026-11-01 |
+| 16 | [Word Search](https://leetcode.com/problems/word-search/) | 2026-11-01 |
+| 17 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | 2026-11-01 |
+| 18 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | 2026-11-01 |
+| 19 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | 2026-10-31 |
+| 20 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | 2026-10-30 |
 
 ---
 
@@ -78,4 +102,4 @@
 
 ---
 
-*Last updated: 2026-11-01 00:07:46*
+*Last updated: 2026-11-03 15:28:39*
