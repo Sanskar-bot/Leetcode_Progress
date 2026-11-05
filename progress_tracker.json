@@ -2,24 +2,24 @@
     "meta":  {
                  "username":  "Sanskar_phougat",
                  "profile_url":  "https://leetcode.com/u/Sanskar_phougat/",
-                 "last_updated":  "2026-11-03 15:28:39"
+                 "last_updated":  "2026-11-05 23:49:35"
              },
     "stats":  {
-                  "ranking":  2302350,
-                  "total_solved":  74,
-                  "total_submissions":  122,
+                  "ranking":  2052702,
+                  "total_solved":  79,
+                  "total_submissions":  135,
                   "by_difficulty":  {
                                         "Easy":  {
                                                      "solved":  39,
                                                      "submissions":  65
                                                  },
                                         "Medium":  {
-                                                       "solved":  34,
-                                                       "submissions":  54
+                                                       "solved":  38,
+                                                       "submissions":  66
                                                    },
                                         "Hard":  {
-                                                     "solved":  1,
-                                                     "submissions":  3
+                                                     "solved":  2,
+                                                     "submissions":  4
                                                  }
                                     }
               },
@@ -27,11 +27,11 @@
                    "fundamental":  [
                                        {
                                            "tag":  "Array",
-                                           "solved":  24
+                                           "solved":  26
                                        },
                                        {
                                            "tag":  "Matrix",
-                                           "solved":  5
+                                           "solved":  7
                                        },
                                        {
                                            "tag":  "String",
@@ -51,7 +51,7 @@
                                        },
                                        {
                                            "tag":  "Linked List",
-                                           "solved":  9
+                                           "solved":  11
                                        },
                                        {
                                            "tag":  "Two Pointers",
@@ -73,7 +73,7 @@
                                         },
                                         {
                                             "tag":  "Graph Theory",
-                                            "solved":  1
+                                            "solved":  2
                                         },
                                         {
                                             "tag":  "Binary Search",
@@ -81,15 +81,15 @@
                                         },
                                         {
                                             "tag":  "Depth-First Search",
-                                            "solved":  19
+                                            "solved":  22
                                         },
                                         {
                                             "tag":  "Breadth-First Search",
-                                            "solved":  12
+                                            "solved":  15
                                         },
                                         {
                                             "tag":  "Recursion",
-                                            "solved":  3
+                                            "solved":  4
                                         },
                                         {
                                             "tag":  "Sliding Window",
@@ -101,7 +101,7 @@
                                         },
                                         {
                                             "tag":  "Math",
-                                            "solved":  1
+                                            "solved":  2
                                         },
                                         {
                                             "tag":  "Database",
@@ -123,11 +123,11 @@
                                     },
                                     {
                                         "tag":  "Divide and Conquer",
-                                        "solved":  5
+                                        "solved":  6
                                     },
                                     {
                                         "tag":  "Union-Find",
-                                        "solved":  1
+                                        "solved":  4
                                     },
                                     {
                                         "tag":  "Monotonic Queue",
@@ -140,6 +140,31 @@
                                 ]
                },
     "recent_accepted_submissions":  [
+                                        {
+                                            "title":  "Merge k Sorted Lists",
+                                            "slug":  "merge-k-sorted-lists",
+                                            "date":  "2026-11-03"
+                                        },
+                                        {
+                                            "title":  "Add Two Numbers",
+                                            "slug":  "add-two-numbers",
+                                            "date":  "2026-11-03"
+                                        },
+                                        {
+                                            "title":  "Surrounded Regions",
+                                            "slug":  "surrounded-regions",
+                                            "date":  "2026-11-03"
+                                        },
+                                        {
+                                            "title":  "Max Area of Island",
+                                            "slug":  "max-area-of-island",
+                                            "date":  "2026-11-03"
+                                        },
+                                        {
+                                            "title":  "Number of Provinces",
+                                            "slug":  "number-of-provinces",
+                                            "date":  "2026-11-03"
+                                        },
                                         {
                                             "title":  "Binary Tree Zigzag Level Order Traversal",
                                             "slug":  "binary-tree-zigzag-level-order-traversal",
@@ -214,34 +239,37 @@
                                             "title":  "Binary Tree Inorder Traversal",
                                             "slug":  "binary-tree-inorder-traversal",
                                             "date":  "2026-11-01"
-                                        },
-                                        {
-                                            "title":  "Word Search",
-                                            "slug":  "word-search",
-                                            "date":  "2026-11-01"
-                                        },
-                                        {
-                                            "title":  "Palindrome Partitioning",
-                                            "slug":  "palindrome-partitioning",
-                                            "date":  "2026-11-01"
-                                        },
-                                        {
-                                            "title":  "Letter Combinations of a Phone Number",
-                                            "slug":  "letter-combinations-of-a-phone-number",
-                                            "date":  "2026-11-01"
-                                        },
-                                        {
-                                            "title":  "Combination Sum",
-                                            "slug":  "combination-sum",
-                                            "date":  "2026-10-31"
-                                        },
-                                        {
-                                            "title":  "Intersection of Two Linked Lists",
-                                            "slug":  "intersection-of-two-linked-lists",
-                                            "date":  "2026-10-30"
                                         }
                                     ],
     "solutions_posted":  [
+                             {
+                                 "problem":  "Add Two Numbers",
+                                 "slug":  "add-two-numbers",
+                                 "solution_url":  "https://leetcode.com/solutions/recursion-with-carry-digit-by-digit-omax-3qh5/",
+                                 "date":  "2026-11-03",
+                                 "filename":  "add-two-numbers.py"
+                             },
+                             {
+                                 "problem":  "Surrounded Regions",
+                                 "slug":  "surrounded-regions",
+                                 "solution_url":  "https://leetcode.com/solutions/dfs-from-the-border-mark-safe-cells-flip-71zo/",
+                                 "date":  "2026-11-03",
+                                 "filename":  "surrounded-regions.py"
+                             },
+                             {
+                                 "problem":  "Max Area of Island",
+                                 "slug":  "max-area-of-island",
+                                 "solution_url":  "https://leetcode.com/solutions/dfs-returning-island-size-mark-visited-o-83zp/",
+                                 "date":  "2026-11-03",
+                                 "filename":  "max-area-of-island.py"
+                             },
+                             {
+                                 "problem":  "Number of Provinces",
+                                 "slug":  "number-of-provinces",
+                                 "solution_url":  "https://leetcode.com/solutions/dfs-with-visited-array-count-connected-g-tbgr/",
+                                 "date":  "2026-11-03",
+                                 "filename":  "number-of-provinces.py"
+                             },
                              {
                                  "problem":  "Binary Tree Zigzag Level Order Traversal",
                                  "slug":  "binary-tree-zigzag-level-order-traversal",
