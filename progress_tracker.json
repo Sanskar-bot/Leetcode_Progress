@@ -2,20 +2,20 @@
     "meta":  {
                  "username":  "Sanskar_phougat",
                  "profile_url":  "https://leetcode.com/u/Sanskar_phougat/",
-                 "last_updated":  "2026-11-07 17:57:35"
+                 "last_updated":  "2026-11-08 00:51:19"
              },
     "stats":  {
                   "ranking":  1981158,
-                  "total_solved":  84,
-                  "total_submissions":  145,
+                  "total_solved":  90,
+                  "total_submissions":  152,
                   "by_difficulty":  {
                                         "Easy":  {
-                                                     "solved":  40,
-                                                     "submissions":  67
+                                                     "solved":  43,
+                                                     "submissions":  71
                                                  },
                                         "Medium":  {
-                                                       "solved":  41,
-                                                       "submissions":  73
+                                                       "solved":  44,
+                                                       "submissions":  76
                                                    },
                                         "Hard":  {
                                                      "solved":  3,
@@ -27,7 +27,7 @@
                    "fundamental":  [
                                        {
                                            "tag":  "Array",
-                                           "solved":  29
+                                           "solved":  31
                                        },
                                        {
                                            "tag":  "Matrix",
@@ -35,11 +35,11 @@
                                        },
                                        {
                                            "tag":  "String",
-                                           "solved":  11
+                                           "solved":  16
                                        },
                                        {
                                            "tag":  "Sorting",
-                                           "solved":  8
+                                           "solved":  9
                                        },
                                        {
                                            "tag":  "Stack",
@@ -55,7 +55,7 @@
                                        },
                                        {
                                            "tag":  "Two Pointers",
-                                           "solved":  17
+                                           "solved":  18
                                        }
                                    ],
                    "intermediate":  [
@@ -69,11 +69,15 @@
                                         },
                                         {
                                             "tag":  "Hash Table",
-                                            "solved":  11
+                                            "solved":  14
                                         },
                                         {
                                             "tag":  "Graph Theory",
                                             "solved":  2
+                                        },
+                                        {
+                                            "tag":  "Greedy",
+                                            "solved":  1
                                         },
                                         {
                                             "tag":  "Binary Search",
@@ -93,7 +97,7 @@
                                         },
                                         {
                                             "tag":  "Sliding Window",
-                                            "solved":  4
+                                            "solved":  6
                                         },
                                         {
                                             "tag":  "Bit Manipulation",
@@ -101,7 +105,7 @@
                                         },
                                         {
                                             "tag":  "Math",
-                                            "solved":  2
+                                            "solved":  3
                                         },
                                         {
                                             "tag":  "Database",
@@ -126,6 +130,10 @@
                                         "solved":  6
                                     },
                                     {
+                                        "tag":  "Trie",
+                                        "solved":  1
+                                    },
+                                    {
                                         "tag":  "Union-Find",
                                         "solved":  4
                                     },
@@ -144,6 +152,36 @@
                                 ]
                },
     "recent_accepted_submissions":  [
+                                        {
+                                            "title":  "Valid Palindrome II",
+                                            "slug":  "valid-palindrome-ii",
+                                            "date":  "2026-11-08"
+                                        },
+                                        {
+                                            "title":  "Count Zero Request Servers",
+                                            "slug":  "count-zero-request-servers",
+                                            "date":  "2026-11-08"
+                                        },
+                                        {
+                                            "title":  "Longest Repeating Character Replacement",
+                                            "slug":  "longest-repeating-character-replacement",
+                                            "date":  "2026-11-07"
+                                        },
+                                        {
+                                            "title":  "String to Integer (atoi)",
+                                            "slug":  "string-to-integer-atoi",
+                                            "date":  "2026-11-07"
+                                        },
+                                        {
+                                            "title":  "Roman to Integer",
+                                            "slug":  "roman-to-integer",
+                                            "date":  "2026-11-07"
+                                        },
+                                        {
+                                            "title":  "Longest Common Prefix",
+                                            "slug":  "longest-common-prefix",
+                                            "date":  "2026-11-07"
+                                        },
                                         {
                                             "title":  "Process Tasks Using Servers",
                                             "slug":  "process-tasks-using-servers",
@@ -213,39 +251,44 @@
                                             "title":  "Invert Binary Tree",
                                             "slug":  "invert-binary-tree",
                                             "date":  "2026-11-02"
-                                        },
-                                        {
-                                            "title":  "Symmetric Tree",
-                                            "slug":  "symmetric-tree",
-                                            "date":  "2026-11-02"
-                                        },
-                                        {
-                                            "title":  "Same Tree",
-                                            "slug":  "same-tree",
-                                            "date":  "2026-11-02"
-                                        },
-                                        {
-                                            "title":  "Binary Tree Right Side View",
-                                            "slug":  "binary-tree-right-side-view",
-                                            "date":  "2026-11-02"
-                                        },
-                                        {
-                                            "title":  "Lowest Common Ancestor of a Binary Tree",
-                                            "slug":  "lowest-common-ancestor-of-a-binary-tree",
-                                            "date":  "2026-11-02"
-                                        },
-                                        {
-                                            "title":  "Maximum Depth of Binary Tree",
-                                            "slug":  "maximum-depth-of-binary-tree",
-                                            "date":  "2026-11-02"
-                                        },
-                                        {
-                                            "title":  "Diameter of Binary Tree",
-                                            "slug":  "diameter-of-binary-tree",
-                                            "date":  "2026-11-02"
                                         }
                                     ],
     "solutions_posted":  [
+                             {
+                                 "problem":  "Valid Palindrome II",
+                                 "slug":  "valid-palindrome-ii",
+                                 "solution_url":  "https://leetcode.com/solutions/two-pointers-try-skipping-left-or-right-sla6c/",
+                                 "date":  "2026-11-08",
+                                 "filename":  "valid-palindrome-ii.py"
+                             },
+                             {
+                                 "problem":  "Longest Repeating Character Replacement",
+                                 "slug":  "longest-repeating-character-replacement",
+                                 "solution_url":  "https://leetcode.com/solutions/sliding-window-window-size-max-frequency-r6ar/",
+                                 "date":  "2026-11-07",
+                                 "filename":  "longest-repeating-character-replacement.py"
+                             },
+                             {
+                                 "problem":  "String to Integer (atoi)",
+                                 "slug":  "string-to-integer-atoi",
+                                 "solution_url":  "https://leetcode.com/solutions/single-pass-parse-lstrip-sign-digits-cla-y3xy/",
+                                 "date":  "2026-11-07",
+                                 "filename":  "string-to-integer-atoi.py"
+                             },
+                             {
+                                 "problem":  "Roman to Integer",
+                                 "slug":  "roman-to-integer",
+                                 "solution_url":  "https://leetcode.com/solutions/right-to-left-scan-add-or-subtract-by-ru-dfj7/",
+                                 "date":  "2026-11-07",
+                                 "filename":  "roman-to-integer.py"
+                             },
+                             {
+                                 "problem":  "Longest Common Prefix",
+                                 "slug":  "longest-common-prefix",
+                                 "solution_url":  "https://leetcode.com/solutions/shrinking-prefix-prefix-safe-check-with-r79tu/",
+                                 "date":  "2026-11-07",
+                                 "filename":  "longest-common-prefix.py"
+                             },
                              {
                                  "problem":  "Process Tasks Using Servers",
                                  "slug":  "process-tasks-using-servers",
