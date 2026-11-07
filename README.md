@@ -9,15 +9,15 @@
 | Metric | Value |
 |---|---|
 | Global Ranking | #1,981,158 |
-| Total Solved | **83** problems |
-| Total Submissions | 144 |
+| Total Solved | **84** problems |
+| Total Submissions | 145 |
 | Acceptance Rate | ~58% |
 
 ### Difficulty Breakdown
 
 | Easy | Medium | Hard |
 |---|---|---|
-| 40 | 40 | 3 |
+| 40 | 41 | 3 |
 
 ---
 
@@ -26,7 +26,7 @@
 ### Fundamental
 | Topic | Solved |
 |---|---|
-| Array | 28 |
+| Array | 29 |
 | Matrix | 8 |
 | String | 11 |
 | Sorting | 8 |
@@ -69,26 +69,26 @@
 
 | # | Problem | Date |
 |---|---|---|
-| 1 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 2026-11-07 |
-| 2 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | 2026-11-07 |
-| 3 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 2026-11-07 |
-| 4 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | 2026-11-07 |
-| 5 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 2026-11-03 |
-| 6 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 2026-11-03 |
-| 7 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | 2026-11-03 |
-| 8 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | 2026-11-03 |
-| 9 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | 2026-11-03 |
-| 10 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | 2026-11-03 |
-| 11 | [Path Sum](https://leetcode.com/problems/path-sum/) | 2026-11-03 |
-| 12 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 2026-11-03 |
-| 13 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 2026-11-02 |
-| 14 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | 2026-11-02 |
-| 15 | [Same Tree](https://leetcode.com/problems/same-tree/) | 2026-11-02 |
-| 16 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 2026-11-02 |
-| 17 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 2026-11-02 |
-| 18 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 2026-11-02 |
-| 19 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 2026-11-02 |
-| 20 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 2026-11-02 |
+| 1 | [Process Tasks Using Servers](https://leetcode.com/problems/process-tasks-using-servers/) | 2026-11-07 |
+| 2 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 2026-11-07 |
+| 3 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | 2026-11-07 |
+| 4 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 2026-11-07 |
+| 5 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | 2026-11-07 |
+| 6 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 2026-11-03 |
+| 7 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 2026-11-03 |
+| 8 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | 2026-11-03 |
+| 9 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | 2026-11-03 |
+| 10 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | 2026-11-03 |
+| 11 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | 2026-11-03 |
+| 12 | [Path Sum](https://leetcode.com/problems/path-sum/) | 2026-11-03 |
+| 13 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 2026-11-03 |
+| 14 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | 2026-11-02 |
+| 15 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | 2026-11-02 |
+| 16 | [Same Tree](https://leetcode.com/problems/same-tree/) | 2026-11-02 |
+| 17 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | 2026-11-02 |
+| 18 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 2026-11-02 |
+| 19 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | 2026-11-02 |
+| 20 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | 2026-11-02 |
 
 ---
 
@@ -103,4 +103,4 @@
 
 ---
 
-*Last updated: 2026-11-07 16:20:02*
+*Last updated: 2026-11-07 17:57:35*
