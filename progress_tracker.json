@@ -2,24 +2,24 @@
     "meta":  {
                  "username":  "Sanskar_phougat",
                  "profile_url":  "https://leetcode.com/u/Sanskar_phougat/",
-                 "last_updated":  "2026-11-09 01:21:27"
+                 "last_updated":  "2026-11-09 23:22:31"
              },
     "stats":  {
-                  "ranking":  1866463,
-                  "total_solved":  90,
-                  "total_submissions":  152,
+                  "ranking":  1806537,
+                  "total_solved":  96,
+                  "total_submissions":  158,
                   "by_difficulty":  {
                                         "Easy":  {
-                                                     "solved":  43,
-                                                     "submissions":  71
+                                                     "solved":  45,
+                                                     "submissions":  73
                                                  },
                                         "Medium":  {
-                                                       "solved":  44,
-                                                       "submissions":  76
+                                                       "solved":  47,
+                                                       "submissions":  79
                                                    },
                                         "Hard":  {
-                                                     "solved":  3,
-                                                     "submissions":  5
+                                                     "solved":  4,
+                                                     "submissions":  6
                                                  }
                                     }
               },
@@ -27,15 +27,19 @@
                    "fundamental":  [
                                        {
                                            "tag":  "Array",
-                                           "solved":  31
+                                           "solved":  36
                                        },
                                        {
                                            "tag":  "Matrix",
-                                           "solved":  8
+                                           "solved":  10
                                        },
                                        {
                                            "tag":  "String",
                                            "solved":  16
+                                       },
+                                       {
+                                           "tag":  "Simulation",
+                                           "solved":  1
                                        },
                                        {
                                            "tag":  "Sorting",
@@ -55,7 +59,7 @@
                                        },
                                        {
                                            "tag":  "Two Pointers",
-                                           "solved":  18
+                                           "solved":  19
                                        }
                                    ],
                    "intermediate":  [
@@ -69,7 +73,11 @@
                                         },
                                         {
                                             "tag":  "Hash Table",
-                                            "solved":  14
+                                            "solved":  16
+                                        },
+                                        {
+                                            "tag":  "Ordered Set",
+                                            "solved":  1
                                         },
                                         {
                                             "tag":  "Graph Theory",
@@ -81,15 +89,15 @@
                                         },
                                         {
                                             "tag":  "Binary Search",
-                                            "solved":  4
+                                            "solved":  6
                                         },
                                         {
                                             "tag":  "Depth-First Search",
-                                            "solved":  22
+                                            "solved":  23
                                         },
                                         {
                                             "tag":  "Breadth-First Search",
-                                            "solved":  15
+                                            "solved":  16
                                         },
                                         {
                                             "tag":  "Recursion",
@@ -105,7 +113,7 @@
                                         },
                                         {
                                             "tag":  "Math",
-                                            "solved":  3
+                                            "solved":  4
                                         },
                                         {
                                             "tag":  "Database",
@@ -135,7 +143,7 @@
                                     },
                                     {
                                         "tag":  "Union-Find",
-                                        "solved":  4
+                                        "solved":  5
                                     },
                                     {
                                         "tag":  "Monotonic Stack",
@@ -152,6 +160,36 @@
                                 ]
                },
     "recent_accepted_submissions":  [
+                                        {
+                                            "title":  "Find First and Last Position of Element in Sorted Array",
+                                            "slug":  "find-first-and-last-position-of-element-in-sorted-array",
+                                            "date":  "2026-11-09"
+                                        },
+                                        {
+                                            "title":  "Find Servers That Handled Most Number of Requests",
+                                            "slug":  "find-servers-that-handled-most-number-of-requests",
+                                            "date":  "2026-11-09"
+                                        },
+                                        {
+                                            "title":  "Binary Search",
+                                            "slug":  "binary-search",
+                                            "date":  "2026-11-09"
+                                        },
+                                        {
+                                            "title":  "Valid Sudoku",
+                                            "slug":  "valid-sudoku",
+                                            "date":  "2026-11-09"
+                                        },
+                                        {
+                                            "title":  "Happy Number",
+                                            "slug":  "happy-number",
+                                            "date":  "2026-11-09"
+                                        },
+                                        {
+                                            "title":  "Count Servers that Communicate",
+                                            "slug":  "count-servers-that-communicate",
+                                            "date":  "2026-11-09"
+                                        },
                                         {
                                             "title":  "Valid Palindrome II",
                                             "slug":  "valid-palindrome-ii",
@@ -221,39 +259,51 @@
                                             "title":  "Surrounded Regions",
                                             "slug":  "surrounded-regions",
                                             "date":  "2026-11-03"
-                                        },
-                                        {
-                                            "title":  "Max Area of Island",
-                                            "slug":  "max-area-of-island",
-                                            "date":  "2026-11-03"
-                                        },
-                                        {
-                                            "title":  "Number of Provinces",
-                                            "slug":  "number-of-provinces",
-                                            "date":  "2026-11-03"
-                                        },
-                                        {
-                                            "title":  "Binary Tree Zigzag Level Order Traversal",
-                                            "slug":  "binary-tree-zigzag-level-order-traversal",
-                                            "date":  "2026-11-03"
-                                        },
-                                        {
-                                            "title":  "Path Sum",
-                                            "slug":  "path-sum",
-                                            "date":  "2026-11-03"
-                                        },
-                                        {
-                                            "title":  "Balanced Binary Tree",
-                                            "slug":  "balanced-binary-tree",
-                                            "date":  "2026-11-03"
-                                        },
-                                        {
-                                            "title":  "Invert Binary Tree",
-                                            "slug":  "invert-binary-tree",
-                                            "date":  "2026-11-02"
                                         }
                                     ],
     "solutions_posted":  [
+                             {
+                                 "problem":  "Find First and Last Position of Element in Sorted Array",
+                                 "slug":  "find-first-and-last-position-of-element-in-sorted-array",
+                                 "solution_url":  "https://leetcode.com/solutions/find-first-and-last-position-of-element-8koyv/",
+                                 "date":  "2026-11-09",
+                                 "filename":  "find-first-and-last-position-of-element-in-sorted-array.py"
+                             },
+                             {
+                                 "problem":  "Find Servers That Handled Most Number of Requests",
+                                 "slug":  "find-servers-that-handled-most-number-of-requests",
+                                 "solution_url":  "https://leetcode.com/solutions/find-servers-that-handled-most-requests-bj9t0/",
+                                 "date":  "2026-11-09",
+                                 "filename":  "find-servers-that-handled-most-number-of-requests.py"
+                             },
+                             {
+                                 "problem":  "Binary Search",
+                                 "slug":  "binary-search",
+                                 "solution_url":  "https://leetcode.com/solutions/binary-search-iterative-with-lohi-pointe-908u/",
+                                 "date":  "2026-11-09",
+                                 "filename":  "binary-search.py"
+                             },
+                             {
+                                 "problem":  "Valid Sudoku",
+                                 "slug":  "valid-sudoku",
+                                 "solution_url":  "https://leetcode.com/solutions/valid-sudoku-row-column-and-box-trackers-qxjm/",
+                                 "date":  "2026-11-09",
+                                 "filename":  "valid-sudoku.py"
+                             },
+                             {
+                                 "problem":  "Happy Number",
+                                 "slug":  "happy-number",
+                                 "solution_url":  "https://leetcode.com/solutions/happy-number-digit-square-recursion-stop-0g9s/",
+                                 "date":  "2026-11-09",
+                                 "filename":  "happy-number.py"
+                             },
+                             {
+                                 "problem":  "Count Servers that Communicate",
+                                 "slug":  "count-servers-that-communicate",
+                                 "solution_url":  "https://leetcode.com/solutions/count-servers-that-communicate-rowcolumn-algu/",
+                                 "date":  "2026-11-09",
+                                 "filename":  "count-servers-that-communicate.py"
+                             },
                              {
                                  "problem":  "Valid Palindrome II",
                                  "slug":  "valid-palindrome-ii",
@@ -561,34 +611,6 @@
                                  "solution_url":  "https://leetcode.com/solutions/python-stack-hashmap-on-by-sanskar_phoug-8uc7/",
                                  "date":  "2026-10-19",
                                  "filename":  "valid-parentheses.py"
-                             },
-                             {
-                                 "problem":  "Merge Intervals",
-                                 "slug":  "merge-intervals",
-                                 "solution_url":  "https://leetcode.com/solutions/python-sort-one-pass-merge-on-log-n-by-s-jjoq/",
-                                 "date":  "2026-10-19",
-                                 "filename":  "merge-intervals.py"
-                             },
-                             {
-                                 "problem":  "Longest Substring Without Repeating Characters",
-                                 "slug":  "longest-substring-without-repeating-characters",
-                                 "solution_url":  "https://leetcode.com/solutions/python-sliding-window-set-on-by-sanskar_-mh96/",
-                                 "date":  "2026-10-19",
-                                 "filename":  "longest-substring-without-repeating-characters.py"
-                             },
-                             {
-                                 "problem":  "Top K Frequent Elements",
-                                 "slug":  "top-k-frequent-elements",
-                                 "solution_url":  "https://leetcode.com/solutions/python-hashmap-count-sort-by-frequency-o-ecgs/",
-                                 "date":  "2026-10-19",
-                                 "filename":  "top-k-frequent-elements.py"
-                             },
-                             {
-                                 "problem":  "Group Anagrams",
-                                 "slug":  "group-anagrams",
-                                 "solution_url":  "https://leetcode.com/solutions/group-anagrams-hashmap-26-letter-count-t-5x7m/",
-                                 "date":  "2026-10-19",
-                                 "filename":  "group-anagrams.py"
                              }
                          ]
 }
