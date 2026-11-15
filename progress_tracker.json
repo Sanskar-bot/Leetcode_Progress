@@ -2,55 +2,699 @@
     "meta":  {
                  "username":  "Sanskar_phougat",
                  "profile_url":  "https://leetcode.com/u/Sanskar_phougat/",
-                 "last_updated":  "2026-11-15 13:27:37"
+                 "last_updated":  "2026-11-16 00:25:53"
              },
     "stats":  {
-                  "ranking":  null,
-                  "total_solved":  0,
-                  "total_submissions":  null,
+                  "ranking":  1694109,
+                  "total_solved":  104,
+                  "total_submissions":  173,
                   "by_difficulty":  {
                                         "Easy":  {
-                                                     "solved":  0,
-                                                     "submissions":  null
+                                                     "solved":  47,
+                                                     "submissions":  78
                                                  },
                                         "Medium":  {
-                                                       "solved":  0,
-                                                       "submissions":  null
+                                                       "solved":  53,
+                                                       "submissions":  89
                                                    },
                                         "Hard":  {
-                                                     "solved":  0,
-                                                     "submissions":  null
+                                                     "solved":  4,
+                                                     "submissions":  6
                                                  }
                                     }
               },
     "topics":  {
                    "fundamental":  [
                                        {
-                                           "tag":  null,
-                                           "solved":  null
+                                           "tag":  "Array",
+                                           "solved":  43
+                                       },
+                                       {
+                                           "tag":  "Matrix",
+                                           "solved":  10
+                                       },
+                                       {
+                                           "tag":  "String",
+                                           "solved":  16
+                                       },
+                                       {
+                                           "tag":  "Simulation",
+                                           "solved":  1
+                                       },
+                                       {
+                                           "tag":  "Sorting",
+                                           "solved":  9
+                                       },
+                                       {
+                                           "tag":  "Stack",
+                                           "solved":  6
+                                       },
+                                       {
+                                           "tag":  "Queue",
+                                           "solved":  1
+                                       },
+                                       {
+                                           "tag":  "Linked List",
+                                           "solved":  11
+                                       },
+                                       {
+                                           "tag":  "Two Pointers",
+                                           "solved":  19
                                        }
                                    ],
                    "intermediate":  [
                                         {
-                                            "tag":  null,
-                                            "solved":  null
+                                            "tag":  "Tree",
+                                            "solved":  19
+                                        },
+                                        {
+                                            "tag":  "Binary Tree",
+                                            "solved":  19
+                                        },
+                                        {
+                                            "tag":  "Hash Table",
+                                            "solved":  16
+                                        },
+                                        {
+                                            "tag":  "Ordered Set",
+                                            "solved":  1
+                                        },
+                                        {
+                                            "tag":  "Graph Theory",
+                                            "solved":  2
+                                        },
+                                        {
+                                            "tag":  "Greedy",
+                                            "solved":  1
+                                        },
+                                        {
+                                            "tag":  "Binary Search",
+                                            "solved":  9
+                                        },
+                                        {
+                                            "tag":  "Depth-First Search",
+                                            "solved":  23
+                                        },
+                                        {
+                                            "tag":  "Breadth-First Search",
+                                            "solved":  16
+                                        },
+                                        {
+                                            "tag":  "Recursion",
+                                            "solved":  5
+                                        },
+                                        {
+                                            "tag":  "Sliding Window",
+                                            "solved":  6
+                                        },
+                                        {
+                                            "tag":  "Bit Manipulation",
+                                            "solved":  3
+                                        },
+                                        {
+                                            "tag":  "Math",
+                                            "solved":  6
+                                        },
+                                        {
+                                            "tag":  "Database",
+                                            "solved":  15
                                         }
                                     ],
                    "advanced":  [
                                     {
-                                        "tag":  null,
-                                        "solved":  null
+                                        "tag":  "Backtracking",
+                                        "solved":  6
+                                    },
+                                    {
+                                        "tag":  "Quickselect",
+                                        "solved":  2
+                                    },
+                                    {
+                                        "tag":  "Dynamic Programming",
+                                        "solved":  6
+                                    },
+                                    {
+                                        "tag":  "Divide and Conquer",
+                                        "solved":  6
+                                    },
+                                    {
+                                        "tag":  "Trie",
+                                        "solved":  1
+                                    },
+                                    {
+                                        "tag":  "Union-Find",
+                                        "solved":  5
+                                    },
+                                    {
+                                        "tag":  "Monotonic Stack",
+                                        "solved":  1
+                                    },
+                                    {
+                                        "tag":  "Monotonic Queue",
+                                        "solved":  1
+                                    },
+                                    {
+                                        "tag":  "Topological Sort",
+                                        "solved":  1
                                     }
                                 ]
                },
     "recent_accepted_submissions":  [
                                         {
-                                            "title":  null,
-                                            "slug":  null,
-                                            "date":  "1970-01-01"
+                                            "title":  "Number of Sub-arrays With Odd Sum",
+                                            "slug":  "number-of-sub-arrays-with-odd-sum",
+                                            "date":  "2026-11-15"
+                                        },
+                                        {
+                                            "title":  "Subsets II",
+                                            "slug":  "subsets-ii",
+                                            "date":  "2026-11-15"
+                                        },
+                                        {
+                                            "title":  "Subsets",
+                                            "slug":  "subsets",
+                                            "date":  "2026-11-15"
+                                        },
+                                        {
+                                            "title":  "Fibonacci Number",
+                                            "slug":  "fibonacci-number",
+                                            "date":  "2026-11-15"
+                                        },
+                                        {
+                                            "title":  "Climbing Stairs II",
+                                            "slug":  "climbing-stairs-ii",
+                                            "date":  "2026-11-10"
+                                        },
+                                        {
+                                            "title":  "Find Minimum in Rotated Sorted Array",
+                                            "slug":  "find-minimum-in-rotated-sorted-array",
+                                            "date":  "2026-11-10"
+                                        },
+                                        {
+                                            "title":  "Search Insert Position",
+                                            "slug":  "search-insert-position",
+                                            "date":  "2026-11-10"
+                                        },
+                                        {
+                                            "title":  "Koko Eating Bananas",
+                                            "slug":  "koko-eating-bananas",
+                                            "date":  "2026-11-10"
+                                        },
+                                        {
+                                            "title":  "Find First and Last Position of Element in Sorted Array",
+                                            "slug":  "find-first-and-last-position-of-element-in-sorted-array",
+                                            "date":  "2026-11-09"
+                                        },
+                                        {
+                                            "title":  "Find Servers That Handled Most Number of Requests",
+                                            "slug":  "find-servers-that-handled-most-number-of-requests",
+                                            "date":  "2026-11-09"
+                                        },
+                                        {
+                                            "title":  "Binary Search",
+                                            "slug":  "binary-search",
+                                            "date":  "2026-11-09"
+                                        },
+                                        {
+                                            "title":  "Valid Sudoku",
+                                            "slug":  "valid-sudoku",
+                                            "date":  "2026-11-09"
+                                        },
+                                        {
+                                            "title":  "Happy Number",
+                                            "slug":  "happy-number",
+                                            "date":  "2026-11-09"
+                                        },
+                                        {
+                                            "title":  "Count Servers that Communicate",
+                                            "slug":  "count-servers-that-communicate",
+                                            "date":  "2026-11-09"
+                                        },
+                                        {
+                                            "title":  "Valid Palindrome II",
+                                            "slug":  "valid-palindrome-ii",
+                                            "date":  "2026-11-08"
+                                        },
+                                        {
+                                            "title":  "Count Zero Request Servers",
+                                            "slug":  "count-zero-request-servers",
+                                            "date":  "2026-11-08"
+                                        },
+                                        {
+                                            "title":  "Longest Repeating Character Replacement",
+                                            "slug":  "longest-repeating-character-replacement",
+                                            "date":  "2026-11-07"
+                                        },
+                                        {
+                                            "title":  "String to Integer (atoi)",
+                                            "slug":  "string-to-integer-atoi",
+                                            "date":  "2026-11-07"
+                                        },
+                                        {
+                                            "title":  "Roman to Integer",
+                                            "slug":  "roman-to-integer",
+                                            "date":  "2026-11-07"
+                                        },
+                                        {
+                                            "title":  "Longest Common Prefix",
+                                            "slug":  "longest-common-prefix",
+                                            "date":  "2026-11-07"
                                         }
                                     ],
     "solutions_posted":  [
-
+                             {
+                                 "problem":  "Number of Sub-arrays With Odd Sum",
+                                 "slug":  "number-of-sub-arrays-with-odd-sum",
+                                 "solution_url":  "https://leetcode.com/solutions/prefix-sum-parity-count-evenodd-prefixes-gba8/",
+                                 "date":  "2026-11-15",
+                                 "filename":  "number-of-sub-arrays-with-odd-sum.py"
+                             },
+                             {
+                                 "problem":  "Subsets II",
+                                 "slug":  "subsets-ii",
+                                 "solution_url":  "https://leetcode.com/solutions/backtracking-sort-skip-duplicates-pick-n-4h10/",
+                                 "date":  "2026-11-15",
+                                 "filename":  "subsets-ii.py"
+                             },
+                             {
+                                 "problem":  "Subsets",
+                                 "slug":  "subsets",
+                                 "solution_url":  "https://leetcode.com/solutions/backtracking-pick-or-not-pick-includeexc-c6sg/",
+                                 "date":  "2026-11-15",
+                                 "filename":  "subsets.py"
+                             },
+                             {
+                                 "problem":  "Fibonacci Number",
+                                 "slug":  "fibonacci-number",
+                                 "solution_url":  "https://leetcode.com/solutions/python-recursion-memoization-on-time-and-iqa7/",
+                                 "date":  "2026-11-15",
+                                 "filename":  "fibonacci-number.py"
+                             },
+                             {
+                                 "problem":  "Climbing Stairs II",
+                                 "slug":  "climbing-stairs-ii",
+                                 "solution_url":  "https://leetcode.com/solutions/climbing-stairs-ii-bottom-up-dp-look-bac-sg7l/",
+                                 "date":  "2026-11-11",
+                                 "filename":  "climbing-stairs-ii.py"
+                             },
+                             {
+                                 "problem":  "Find Minimum in Rotated Sorted Array",
+                                 "slug":  "find-minimum-in-rotated-sorted-array",
+                                 "solution_url":  "https://leetcode.com/solutions/find-minimum-in-rotated-sorted-array-bin-6jn5/",
+                                 "date":  "2026-11-10",
+                                 "filename":  "find-minimum-in-rotated-sorted-array.py"
+                             },
+                             {
+                                 "problem":  "Find Minimum in Rotated Sorted Array",
+                                 "slug":  "find-minimum-in-rotated-sorted-array",
+                                 "solution_url":  "https://leetcode.com/solutions/find-minimum-in-rotated-sorted-array-bin-stl3/",
+                                 "date":  "2026-11-10",
+                                 "filename":  "find-minimum-in-rotated-sorted-array.py"
+                             },
+                             {
+                                 "problem":  "Search Insert Position",
+                                 "slug":  "search-insert-position",
+                                 "solution_url":  "https://leetcode.com/solutions/search-insert-position-binary-search-ret-m3gw/",
+                                 "date":  "2026-11-10",
+                                 "filename":  "search-insert-position.py"
+                             },
+                             {
+                                 "problem":  "Find First and Last Position of Element in Sorted Array",
+                                 "slug":  "find-first-and-last-position-of-element-in-sorted-array",
+                                 "solution_url":  "https://leetcode.com/solutions/find-first-and-last-position-of-element-8koyv/",
+                                 "date":  "2026-11-09",
+                                 "filename":  "find-first-and-last-position-of-element-in-sorted-array.py"
+                             },
+                             {
+                                 "problem":  "Find Servers That Handled Most Number of Requests",
+                                 "slug":  "find-servers-that-handled-most-number-of-requests",
+                                 "solution_url":  "https://leetcode.com/solutions/find-servers-that-handled-most-requests-bj9t0/",
+                                 "date":  "2026-11-09",
+                                 "filename":  "find-servers-that-handled-most-number-of-requests.py"
+                             },
+                             {
+                                 "problem":  "Binary Search",
+                                 "slug":  "binary-search",
+                                 "solution_url":  "https://leetcode.com/solutions/binary-search-iterative-with-lohi-pointe-908u/",
+                                 "date":  "2026-11-09",
+                                 "filename":  "binary-search.py"
+                             },
+                             {
+                                 "problem":  "Valid Sudoku",
+                                 "slug":  "valid-sudoku",
+                                 "solution_url":  "https://leetcode.com/solutions/valid-sudoku-row-column-and-box-trackers-qxjm/",
+                                 "date":  "2026-11-09",
+                                 "filename":  "valid-sudoku.py"
+                             },
+                             {
+                                 "problem":  "Happy Number",
+                                 "slug":  "happy-number",
+                                 "solution_url":  "https://leetcode.com/solutions/happy-number-digit-square-recursion-stop-0g9s/",
+                                 "date":  "2026-11-09",
+                                 "filename":  "happy-number.py"
+                             },
+                             {
+                                 "problem":  "Count Servers that Communicate",
+                                 "slug":  "count-servers-that-communicate",
+                                 "solution_url":  "https://leetcode.com/solutions/count-servers-that-communicate-rowcolumn-algu/",
+                                 "date":  "2026-11-09",
+                                 "filename":  "count-servers-that-communicate.py"
+                             },
+                             {
+                                 "problem":  "Valid Palindrome II",
+                                 "slug":  "valid-palindrome-ii",
+                                 "solution_url":  "https://leetcode.com/solutions/two-pointers-try-skipping-left-or-right-sla6c/",
+                                 "date":  "2026-11-08",
+                                 "filename":  "valid-palindrome-ii.py"
+                             },
+                             {
+                                 "problem":  "Longest Repeating Character Replacement",
+                                 "slug":  "longest-repeating-character-replacement",
+                                 "solution_url":  "https://leetcode.com/solutions/sliding-window-window-size-max-frequency-r6ar/",
+                                 "date":  "2026-11-07",
+                                 "filename":  "longest-repeating-character-replacement.py"
+                             },
+                             {
+                                 "problem":  "String to Integer (atoi)",
+                                 "slug":  "string-to-integer-atoi",
+                                 "solution_url":  "https://leetcode.com/solutions/single-pass-parse-lstrip-sign-digits-cla-y3xy/",
+                                 "date":  "2026-11-07",
+                                 "filename":  "string-to-integer-atoi.py"
+                             },
+                             {
+                                 "problem":  "Roman to Integer",
+                                 "slug":  "roman-to-integer",
+                                 "solution_url":  "https://leetcode.com/solutions/right-to-left-scan-add-or-subtract-by-ru-dfj7/",
+                                 "date":  "2026-11-07",
+                                 "filename":  "roman-to-integer.py"
+                             },
+                             {
+                                 "problem":  "Longest Common Prefix",
+                                 "slug":  "longest-common-prefix",
+                                 "solution_url":  "https://leetcode.com/solutions/shrinking-prefix-prefix-safe-check-with-r79tu/",
+                                 "date":  "2026-11-07",
+                                 "filename":  "longest-common-prefix.py"
+                             },
+                             {
+                                 "problem":  "Process Tasks Using Servers",
+                                 "slug":  "process-tasks-using-servers",
+                                 "solution_url":  "https://leetcode.com/solutions/two-min-heaps-free-and-busy-servers-onm-qjjsq/",
+                                 "date":  "2026-11-07",
+                                 "filename":  "process-tasks-using-servers.py"
+                             },
+                             {
+                                 "problem":  "Reverse Words in a String",
+                                 "slug":  "reverse-words-in-a-string",
+                                 "solution_url":  "https://leetcode.com/solutions/reverse-words-in-a-string-two-pointers-o-x82n/",
+                                 "date":  "2026-11-07",
+                                 "filename":  "reverse-words-in-a-string.py"
+                             },
+                             {
+                                 "problem":  "Reverse Words in a String III",
+                                 "slug":  "reverse-words-in-a-string-iii",
+                                 "solution_url":  "https://leetcode.com/solutions/reverse-words-in-a-string-iii-two-pointe-gjyi/",
+                                 "date":  "2026-11-07",
+                                 "filename":  "reverse-words-in-a-string-iii.py"
+                             },
+                             {
+                                 "problem":  "Trapping Rain Water",
+                                 "slug":  "trapping-rain-water",
+                                 "solution_url":  "https://leetcode.com/solutions/trapping-rain-water-two-pointers-o1-spac-e4km/",
+                                 "date":  "2026-11-07",
+                                 "filename":  "trapping-rain-water.py"
+                             },
+                             {
+                                 "problem":  "Set Matrix Zeroes",
+                                 "slug":  "set-matrix-zeroes",
+                                 "solution_url":  "https://leetcode.com/solutions/set-matrix-zeroes-leetcode-73-by-sanskar-dmki/",
+                                 "date":  "2026-11-07",
+                                 "filename":  "set-matrix-zeroes.py"
+                             },
+                             {
+                                 "problem":  "Add Two Numbers",
+                                 "slug":  "add-two-numbers",
+                                 "solution_url":  "https://leetcode.com/solutions/recursion-with-carry-digit-by-digit-omax-3qh5/",
+                                 "date":  "2026-11-03",
+                                 "filename":  "add-two-numbers.py"
+                             },
+                             {
+                                 "problem":  "Surrounded Regions",
+                                 "slug":  "surrounded-regions",
+                                 "solution_url":  "https://leetcode.com/solutions/dfs-from-the-border-mark-safe-cells-flip-71zo/",
+                                 "date":  "2026-11-03",
+                                 "filename":  "surrounded-regions.py"
+                             },
+                             {
+                                 "problem":  "Max Area of Island",
+                                 "slug":  "max-area-of-island",
+                                 "solution_url":  "https://leetcode.com/solutions/dfs-returning-island-size-mark-visited-o-83zp/",
+                                 "date":  "2026-11-03",
+                                 "filename":  "max-area-of-island.py"
+                             },
+                             {
+                                 "problem":  "Number of Provinces",
+                                 "slug":  "number-of-provinces",
+                                 "solution_url":  "https://leetcode.com/solutions/dfs-with-visited-array-count-connected-g-tbgr/",
+                                 "date":  "2026-11-03",
+                                 "filename":  "number-of-provinces.py"
+                             },
+                             {
+                                 "problem":  "Binary Tree Zigzag Level Order Traversal",
+                                 "slug":  "binary-tree-zigzag-level-order-traversal",
+                                 "solution_url":  "https://leetcode.com/solutions/simple-dfs-reverse-odd-levels-python3-on-6js2/",
+                                 "date":  "2026-11-03",
+                                 "filename":  "binary-tree-zigzag-level-order-traversal.py"
+                             },
+                             {
+                                 "problem":  "Path Sum",
+                                 "slug":  "path-sum",
+                                 "solution_url":  "https://leetcode.com/solutions/path-sum-recursive-dfs-with-root-to-leaf-f473/",
+                                 "date":  "2026-11-03",
+                                 "filename":  "path-sum.py"
+                             },
+                             {
+                                 "problem":  "Balanced Binary Tree",
+                                 "slug":  "balanced-binary-tree",
+                                 "solution_url":  "https://leetcode.com/solutions/balanced-binary-tree-bottom-up-dfs-with-c0rz0/",
+                                 "date":  "2026-11-03",
+                                 "filename":  "balanced-binary-tree.py"
+                             },
+                             {
+                                 "problem":  "Invert Binary Tree",
+                                 "slug":  "invert-binary-tree",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-dfs-swap-children-at-every-nod-0zhj/",
+                                 "date":  "2026-11-02",
+                                 "filename":  "invert-binary-tree.py"
+                             },
+                             {
+                                 "problem":  "Symmetric Tree",
+                                 "slug":  "symmetric-tree",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-dfs-compare-mirror-pairs-on-ti-irub/",
+                                 "date":  "2026-11-02",
+                                 "filename":  "symmetric-tree.py"
+                             },
+                             {
+                                 "problem":  "Lowest Common Ancestor of a Binary Tree",
+                                 "slug":  "lowest-common-ancestor-of-a-binary-tree",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-dfs-compare-node-by-node-on-ti-cffg/",
+                                 "date":  "2026-11-02",
+                                 "filename":  "lowest-common-ancestor-of-a-binary-tree.py"
+                             },
+                             {
+                                 "problem":  "Lowest Common Ancestor of a Binary Tree",
+                                 "slug":  "lowest-common-ancestor-of-a-binary-tree",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-dfs-return-p-q-or-lca-on-time-jhpl2/",
+                                 "date":  "2026-11-02",
+                                 "filename":  "lowest-common-ancestor-of-a-binary-tree.py"
+                             },
+                             {
+                                 "problem":  "Maximum Depth of Binary Tree",
+                                 "slug":  "maximum-depth-of-binary-tree",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-dfs-return-depth-on-time-oh-sp-j3tk/",
+                                 "date":  "2026-11-02",
+                                 "filename":  "maximum-depth-of-binary-tree.py"
+                             },
+                             {
+                                 "problem":  "Diameter of Binary Tree",
+                                 "slug":  "diameter-of-binary-tree",
+                                 "solution_url":  "https://leetcode.com/solutions/dfs-returning-depth-update-diameter-at-e-6x0p/",
+                                 "date":  "2026-11-02",
+                                 "filename":  "diameter-of-binary-tree.py"
+                             },
+                             {
+                                 "problem":  "Binary Tree Level Order Traversal",
+                                 "slug":  "binary-tree-level-order-traversal",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-dfs-with-depth-on-time-python-3l841/",
+                                 "date":  "2026-11-01",
+                                 "filename":  "binary-tree-level-order-traversal.py"
+                             },
+                             {
+                                 "problem":  "Binary Tree Postorder Traversal",
+                                 "slug":  "binary-tree-postorder-traversal",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-postorder-traversal-left-right-3vvh/",
+                                 "date":  "2026-11-01",
+                                 "filename":  "binary-tree-postorder-traversal.py"
+                             },
+                             {
+                                 "problem":  "Binary Tree Preorder Traversal",
+                                 "slug":  "binary-tree-preorder-traversal",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-preorder-traversal-node-left-r-fj1w/",
+                                 "date":  "2026-11-01",
+                                 "filename":  "binary-tree-preorder-traversal.py"
+                             },
+                             {
+                                 "problem":  "Binary Tree Inorder Traversal",
+                                 "slug":  "binary-tree-inorder-traversal",
+                                 "solution_url":  "https://leetcode.com/solutions/recursive-inorder-traversal-left-node-ri-5jsa/",
+                                 "date":  "2026-11-01",
+                                 "filename":  "binary-tree-inorder-traversal.py"
+                             },
+                             {
+                                 "problem":  "Word Search",
+                                 "slug":  "word-search",
+                                 "solution_url":  "https://leetcode.com/solutions/backtracking-on-a-grid-mark-visited-rest-h6t6/",
+                                 "date":  "2026-11-01",
+                                 "filename":  "word-search.py"
+                             },
+                             {
+                                 "problem":  "Palindrome Partitioning",
+                                 "slug":  "palindrome-partitioning",
+                                 "solution_url":  "https://leetcode.com/solutions/backtracking-cut-where-the-piece-is-a-pa-1trk/",
+                                 "date":  "2026-11-01",
+                                 "filename":  "palindrome-partitioning.py"
+                             },
+                             {
+                                 "problem":  "Letter Combinations of a Phone Number",
+                                 "slug":  "letter-combinations-of-a-phone-number",
+                                 "solution_url":  "https://leetcode.com/solutions/backtracking-one-letter-per-digit-python-24k3/",
+                                 "date":  "2026-11-01",
+                                 "filename":  "letter-combinations-of-a-phone-number.py"
+                             },
+                             {
+                                 "problem":  "Combination Sum",
+                                 "slug":  "combination-sum",
+                                 "solution_url":  "https://leetcode.com/solutions/backtracking-reuse-allowed-via-start-ind-gyav/",
+                                 "date":  "2026-10-31",
+                                 "filename":  "combination-sum.py"
+                             },
+                             {
+                                 "problem":  "Intersection of Two Linked Lists",
+                                 "slug":  "intersection-of-two-linked-lists",
+                                 "solution_url":  "https://leetcode.com/solutions/two-pointers-switch-heads-onm-time-o1-sp-0m97/",
+                                 "date":  "2026-10-30",
+                                 "filename":  "intersection-of-two-linked-lists.py"
+                             },
+                             {
+                                 "problem":  "Remove Nth Node From End of List",
+                                 "slug":  "remove-nth-node-from-end-of-list",
+                                 "solution_url":  "https://leetcode.com/solutions/two-pointers-one-pass-ol-time-o1-space-p-iyvo/",
+                                 "date":  "2026-10-30",
+                                 "filename":  "remove-nth-node-from-end-of-list.py"
+                             },
+                             {
+                                 "problem":  "Linked List Cycle II",
+                                 "slug":  "linked-list-cycle-ii",
+                                 "solution_url":  "https://leetcode.com/solutions/floyds-cycle-detection-two-phases-on-tim-sg7o/",
+                                 "date":  "2026-10-30",
+                                 "filename":  "linked-list-cycle-ii.py"
+                             },
+                             {
+                                 "problem":  "Linked List Cycle",
+                                 "slug":  "linked-list-cycle",
+                                 "solution_url":  "https://leetcode.com/solutions/slow-and-fast-pointers-floyds-cycle-dete-nfzf/",
+                                 "date":  "2026-10-30",
+                                 "filename":  "linked-list-cycle.py"
+                             },
+                             {
+                                 "problem":  "Merge Two Sorted Lists",
+                                 "slug":  "merge-two-sorted-lists",
+                                 "solution_url":  "https://leetcode.com/solutions/two-pointers-merge-onm-time-o1-space-pyt-wmcu/",
+                                 "date":  "2026-10-30",
+                                 "filename":  "merge-two-sorted-lists.py"
+                             },
+                             {
+                                 "problem":  "Middle of the Linked List",
+                                 "slug":  "middle-of-the-linked-list",
+                                 "solution_url":  "https://leetcode.com/solutions/slow-and-fast-pointers-on-time-o1-space-f9g8q/",
+                                 "date":  "2026-10-30",
+                                 "filename":  "middle-of-the-linked-list.py"
+                             },
+                             {
+                                 "problem":  "Reverse Linked List",
+                                 "slug":  "reverse-linked-list",
+                                 "solution_url":  "https://leetcode.com/solutions/iterative-pointer-reversal-on-time-o1-sp-yt5d/",
+                                 "date":  "2026-10-30",
+                                 "filename":  "reverse-linked-list.py"
+                             },
+                             {
+                                 "problem":  "Max Consecutive Ones III",
+                                 "slug":  "max-consecutive-ones-iii",
+                                 "solution_url":  "https://leetcode.com/solutions/sliding-window-count-zeros-on-time-o1-sp-wdp6/",
+                                 "date":  "2026-10-29",
+                                 "filename":  "max-consecutive-ones-iii.py"
+                             },
+                             {
+                                 "problem":  "Minimum Size Subarray Sum",
+                                 "slug":  "minimum-size-subarray-sum",
+                                 "solution_url":  "https://leetcode.com/solutions/sliding-window-on-time-o1-space-python-b-ie0d/",
+                                 "date":  "2026-10-28",
+                                 "filename":  "minimum-size-subarray-sum.py"
+                             },
+                             {
+                                 "problem":  "Sliding Window Maximum",
+                                 "slug":  "sliding-window-maximum",
+                                 "solution_url":  "https://leetcode.com/solutions/monotonic-deque-on-time-ok-space-python-66tft/",
+                                 "date":  "2026-10-28",
+                                 "filename":  "sliding-window-maximum.py"
+                             },
+                             {
+                                 "problem":  "Two Sum II - Input Array Is Sorted",
+                                 "slug":  "two-sum-ii-input-array-is-sorted",
+                                 "solution_url":  "https://leetcode.com/solutions/two-pointers-on-time-o1-space-python-by-2zmfn/",
+                                 "date":  "2026-10-28",
+                                 "filename":  "two-sum-ii-input-array-is-sorted.py"
+                             },
+                             {
+                                 "problem":  "Best Time to Buy and Sell Stock",
+                                 "slug":  "best-time-to-buy-and-sell-stock",
+                                 "solution_url":  "https://leetcode.com/solutions/python-track-min-price-one-pass-on-by-sa-vvui/",
+                                 "date":  "2026-10-19",
+                                 "filename":  "best-time-to-buy-and-sell-stock.py"
+                             },
+                             {
+                                 "problem":  "Valid Parentheses",
+                                 "slug":  "valid-parentheses",
+                                 "solution_url":  "https://leetcode.com/solutions/python-stack-hashmap-on-by-sanskar_phoug-8uc7/",
+                                 "date":  "2026-10-19",
+                                 "filename":  "valid-parentheses.py"
+                             },
+                             {
+                                 "problem":  "Merge Intervals",
+                                 "slug":  "merge-intervals",
+                                 "solution_url":  "https://leetcode.com/solutions/python-sort-one-pass-merge-on-log-n-by-s-jjoq/",
+                                 "date":  "2026-10-19",
+                                 "filename":  "merge-intervals.py"
+                             },
+                             {
+                                 "problem":  "Longest Substring Without Repeating Characters",
+                                 "slug":  "longest-substring-without-repeating-characters",
+                                 "solution_url":  "https://leetcode.com/solutions/python-sliding-window-set-on-by-sanskar_-mh96/",
+                                 "date":  "2026-10-19",
+                                 "filename":  "longest-substring-without-repeating-characters.py"
+                             },
+                             {
+                                 "problem":  "Top K Frequent Elements",
+                                 "slug":  "top-k-frequent-elements",
+                                 "solution_url":  "https://leetcode.com/solutions/python-hashmap-count-sort-by-frequency-o-ecgs/",
+                                 "date":  "2026-10-19",
+                                 "filename":  "top-k-frequent-elements.py"
+                             },
+                             {
+                                 "problem":  "Group Anagrams",
+                                 "slug":  "group-anagrams",
+                                 "solution_url":  "https://leetcode.com/solutions/group-anagrams-hashmap-26-letter-count-t-5x7m/",
+                                 "date":  "2026-10-19",
+                                 "filename":  "group-anagrams.py"
+                             }
                          ]
 }
