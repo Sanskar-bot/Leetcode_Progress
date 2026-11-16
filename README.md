@@ -8,16 +8,16 @@
 
 | Metric | Value |
 |---|---|
-| Global Ranking | #1,694,109 |
-| Total Solved | **104** problems |
-| Total Submissions | 173 |
-| Acceptance Rate | ~60% |
+| Global Ranking | #1,626,654 |
+| Total Solved | **107** problems |
+| Total Submissions | 181 |
+| Acceptance Rate | ~59% |
 
 ### Difficulty Breakdown
 
 | Easy | Medium | Hard |
 |---|---|---|
-| 47 | 53 | 4 |
+| 48 | 54 | 5 |
 
 ---
 
@@ -26,10 +26,10 @@
 ### Fundamental
 | Topic | Solved |
 |---|---|
-| Array | 43 |
+| Array | 45 |
 | Matrix | 10 |
-| String | 16 |
-| Simulation | 1 |
+| String | 17 |
+| Simulation | 2 |
 | Sorting | 9 |
 | Stack | 6 |
 | Queue | 1 |
@@ -57,7 +57,7 @@
 ### Advanced
 | Topic | Solved |
 |---|---|
-| Backtracking | 6 |
+| Backtracking | 8 |
 | Quickselect | 2 |
 | Dynamic Programming | 6 |
 | Divide and Conquer | 6 |
@@ -73,26 +73,26 @@
 
 | # | Problem | Date |
 |---|---|---|
-| 1 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 2026-11-15 |
-| 2 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 2026-11-15 |
-| 3 | [Subsets](https://leetcode.com/problems/subsets/) | 2026-11-15 |
-| 4 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | 2026-11-15 |
-| 5 | [Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/) | 2026-11-10 |
-| 6 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 2026-11-10 |
-| 7 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 2026-11-10 |
-| 8 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | 2026-11-10 |
-| 9 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 2026-11-09 |
-| 10 | [Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/) | 2026-11-09 |
-| 11 | [Binary Search](https://leetcode.com/problems/binary-search/) | 2026-11-09 |
-| 12 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | 2026-11-09 |
-| 13 | [Happy Number](https://leetcode.com/problems/happy-number/) | 2026-11-09 |
-| 14 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | 2026-11-09 |
-| 15 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 2026-11-08 |
-| 16 | [Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers/) | 2026-11-08 |
-| 17 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | 2026-11-07 |
-| 18 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | 2026-11-07 |
-| 19 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/) | 2026-11-07 |
-| 20 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | 2026-11-07 |
+| 1 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/) | 2026-11-16 |
+| 2 | [N-Queens](https://leetcode.com/problems/n-queens/) | 2026-11-16 |
+| 3 | [Permutations](https://leetcode.com/problems/permutations/) | 2026-11-16 |
+| 4 | [Number of Sub-arrays With Odd Sum](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/) | 2026-11-15 |
+| 5 | [Subsets II](https://leetcode.com/problems/subsets-ii/) | 2026-11-15 |
+| 6 | [Subsets](https://leetcode.com/problems/subsets/) | 2026-11-15 |
+| 7 | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | 2026-11-15 |
+| 8 | [Climbing Stairs II](https://leetcode.com/problems/climbing-stairs-ii/) | 2026-11-10 |
+| 9 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 2026-11-10 |
+| 10 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 2026-11-10 |
+| 11 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | 2026-11-10 |
+| 12 | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | 2026-11-09 |
+| 13 | [Find Servers That Handled Most Number of Requests](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/) | 2026-11-09 |
+| 14 | [Binary Search](https://leetcode.com/problems/binary-search/) | 2026-11-09 |
+| 15 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | 2026-11-09 |
+| 16 | [Happy Number](https://leetcode.com/problems/happy-number/) | 2026-11-09 |
+| 17 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | 2026-11-09 |
+| 18 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/) | 2026-11-08 |
+| 19 | [Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers/) | 2026-11-08 |
+| 20 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | 2026-11-07 |
 
 ---
 
@@ -107,4 +107,4 @@
 
 ---
 
-*Last updated: 2026-11-16 00:25:53*
+*Last updated: 2026-11-16 23:23:13*

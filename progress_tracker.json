@@ -2,24 +2,24 @@
     "meta":  {
                  "username":  "Sanskar_phougat",
                  "profile_url":  "https://leetcode.com/u/Sanskar_phougat/",
-                 "last_updated":  "2026-11-16 00:25:53"
+                 "last_updated":  "2026-11-16 23:23:13"
              },
     "stats":  {
-                  "ranking":  1694109,
-                  "total_solved":  104,
-                  "total_submissions":  173,
+                  "ranking":  1626654,
+                  "total_solved":  107,
+                  "total_submissions":  181,
                   "by_difficulty":  {
                                         "Easy":  {
-                                                     "solved":  47,
-                                                     "submissions":  78
+                                                     "solved":  48,
+                                                     "submissions":  81
                                                  },
                                         "Medium":  {
-                                                       "solved":  53,
-                                                       "submissions":  89
+                                                       "solved":  54,
+                                                       "submissions":  90
                                                    },
                                         "Hard":  {
-                                                     "solved":  4,
-                                                     "submissions":  6
+                                                     "solved":  5,
+                                                     "submissions":  10
                                                  }
                                     }
               },
@@ -27,7 +27,7 @@
                    "fundamental":  [
                                        {
                                            "tag":  "Array",
-                                           "solved":  43
+                                           "solved":  45
                                        },
                                        {
                                            "tag":  "Matrix",
@@ -35,11 +35,11 @@
                                        },
                                        {
                                            "tag":  "String",
-                                           "solved":  16
+                                           "solved":  17
                                        },
                                        {
                                            "tag":  "Simulation",
-                                           "solved":  1
+                                           "solved":  2
                                        },
                                        {
                                            "tag":  "Sorting",
@@ -123,7 +123,7 @@
                    "advanced":  [
                                     {
                                         "tag":  "Backtracking",
-                                        "solved":  6
+                                        "solved":  8
                                     },
                                     {
                                         "tag":  "Quickselect",
@@ -160,6 +160,21 @@
                                 ]
                },
     "recent_accepted_submissions":  [
+                                        {
+                                            "title":  "Calculate Digit Sum of a String",
+                                            "slug":  "calculate-digit-sum-of-a-string",
+                                            "date":  "2026-11-16"
+                                        },
+                                        {
+                                            "title":  "N-Queens",
+                                            "slug":  "n-queens",
+                                            "date":  "2026-11-16"
+                                        },
+                                        {
+                                            "title":  "Permutations",
+                                            "slug":  "permutations",
+                                            "date":  "2026-11-16"
+                                        },
                                         {
                                             "title":  "Number of Sub-arrays With Odd Sum",
                                             "slug":  "number-of-sub-arrays-with-odd-sum",
@@ -244,24 +259,30 @@
                                             "title":  "Longest Repeating Character Replacement",
                                             "slug":  "longest-repeating-character-replacement",
                                             "date":  "2026-11-07"
-                                        },
-                                        {
-                                            "title":  "String to Integer (atoi)",
-                                            "slug":  "string-to-integer-atoi",
-                                            "date":  "2026-11-07"
-                                        },
-                                        {
-                                            "title":  "Roman to Integer",
-                                            "slug":  "roman-to-integer",
-                                            "date":  "2026-11-07"
-                                        },
-                                        {
-                                            "title":  "Longest Common Prefix",
-                                            "slug":  "longest-common-prefix",
-                                            "date":  "2026-11-07"
                                         }
                                     ],
     "solutions_posted":  [
+                             {
+                                 "problem":  "Calculate Digit Sum of a String",
+                                 "slug":  "calculate-digit-sum-of-a-string",
+                                 "solution_url":  "https://leetcode.com/solutions/simulation-round-based-digit-sum-groupin-5jjr/",
+                                 "date":  "2026-11-16",
+                                 "filename":  "calculate-digit-sum-of-a-string.py"
+                             },
+                             {
+                                 "problem":  "N-Queens",
+                                 "slug":  "n-queens",
+                                 "solution_url":  "https://leetcode.com/solutions/backtracking-row-by-row-queen-placement-nx2qk/",
+                                 "date":  "2026-11-16",
+                                 "filename":  "n-queens.py"
+                             },
+                             {
+                                 "problem":  "Permutations",
+                                 "slug":  "permutations",
+                                 "solution_url":  "https://leetcode.com/solutions/backtracking-with-swap-on-n-or-in-place-y56o5/",
+                                 "date":  "2026-11-16",
+                                 "filename":  "permutations.py"
+                             },
                              {
                                  "problem":  "Number of Sub-arrays With Odd Sum",
                                  "slug":  "number-of-sub-arrays-with-odd-sum",
